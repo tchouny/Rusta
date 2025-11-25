@@ -486,6 +486,7 @@ textarea {
     min-width: 80px;
     /* Assure une largeur minimale pour les colonnes */
     padding: 8px;
+    font-size: 0.8rem;
   }
 
   section {
