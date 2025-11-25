@@ -509,16 +509,42 @@ textarea {
     padding: 12px 10px;
   }
   
-  /* ⬇️ CORRECTION AJOUTÉE ICI ⬇️ */
-  /* Empêche le centrage vertical qui coupait le haut du modal si le contenu est trop grand */
+  /* ⬇️ CORRECTION POUR LE FORMULAIRE MODAL (RÉVISION) ⬇️ */
+  
+  /* 1. Aligne en haut et permet le défilement */
   .modal-backdrop {
     align-items: flex-start; /* Aligne le modal en haut de l'écran */
-    padding-top: 20px;       /* Ajoute une marge de 20px au-dessus du modal */
+    padding-top: 10px;       /* Réduit la marge en haut pour maximiser l'espace */
   }
 
-  /* Assure que le contenu du modal est visible et peut défiler s'il est plus grand que l'écran */
   .modal {
-    max-height: 90vh; /* Hauteur maximale de 90% du viewport (hauteur visible) */
-    overflow-y: auto; /* Permet le défilement vertical si le contenu est trop long */
+    max-height: 98vh;        /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
+    padding: 15px;           /* Réduit le padding interne du modal de 25px à 15px */
+    overflow-y: auto;        /* Assure que le contenu est défilable */
+  }
+
+  /* 2. Diminue la taille des éléments internes du formulaire */
+  .modal h3 {
+    font-size: 1.3rem;
+  }
+  
+  .form-row {
+    margin-bottom: 10px; /* Réduit la marge verticale entre les lignes de 15px à 10px */
+    gap: 8px; /* Réduit l'espace entre les colonnes */
+  }
+
+  label {
+    font-size: 0.85rem; /* Réduit la police des labels pour gagner de la hauteur */
+  }
+
+  .input,
+  textarea,
+  select {
+    padding: 8px; /* Réduit le padding des champs de saisie de 10px à 8px */
+    font-size: 0.9rem; /* Réduit la police des champs */
+  }
+
+  .modal-actions {
+    margin-top: 10px; /* Réduit la marge au-dessus des boutons */
   }
 }
