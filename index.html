@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta content="width=device-width,initial-scale=1" name="viewport" />
   <title>
-    RUSTA - Records du club 25 mars 15h
+    RUSTA - Records du club
   </title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet" />
   <link href="records.css" rel="stylesheet" />
@@ -14,7 +14,7 @@
 <body id="top">
   <header>
     <div class="title">
-      RUSTA - Records du club
+      RUSTA - Records du club 25 mars 15h
     </div>
 
     <nav>
@@ -998,7 +998,7 @@
       const formData = new FormData(form);
       const payload = Object.fromEntries(formData.entries());
       const to = 'laurentduthoo@gmail.com';
-      const cc = 'secretariat.rusta@gmail.com';
+      //const cc = 'secretariat.rusta@gmail.com';
       const subject = encodeURIComponent(`Signalement record - ${payload.category || 'unknown'}`);
       const bodyLines = [
         `Catégorie: ${payload.category || ''}`,
