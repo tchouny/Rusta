@@ -508,4 +508,17 @@ textarea {
     font-size: 1rem;
     padding: 12px 10px;
   }
+  
+  /* ⬇️ CORRECTION AJOUTÉE ICI ⬇️ */
+  /* Empêche le centrage vertical qui coupait le haut du modal si le contenu est trop grand */
+  .modal-backdrop {
+    align-items: flex-start; /* Aligne le modal en haut de l'écran */
+    padding-top: 20px;       /* Ajoute une marge de 20px au-dessus du modal */
+  }
+
+  /* Assure que le contenu du modal est visible et peut défiler s'il est plus grand que l'écran */
+  .modal {
+    max-height: 90vh; /* Hauteur maximale de 90% du viewport (hauteur visible) */
+    overflow-y: auto; /* Permet le défilement vertical si le contenu est trop long */
+  }
 }
