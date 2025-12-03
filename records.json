@@ -124,7 +124,7 @@
     { "epreuve": "60H", "nom": "RUFFFACQ Quentin", "resultat": "10\"01", "annee": "2002" },
     { "epreuve": "4x200m", "nom": "DUJARDIN L - DUJARDIN Q - HERMANS K - HOSTENS G", "resultat": "2'04\"71", "annee": "2013" },
     { "epreuve": "Hauteur", "nom": "EVRARD Gilles", "resultat": "1m51", "annee": "2004" },
-    { "epreuve": "Hauteur", "nom": "TRIFIN Remi", "resultat": "", "annee": "2022" },
+    { "epreuve": "Hauteur", "nom": "TRIFIN Remi", "resultat": "1m51", "annee": "2022" },
     { "epreuve": "Longueur", "nom": "RUFFACQ Quentin", "resultat": "5m10", "annee": "2002" },
     { "epreuve": "Perche", "nom": "TALON Morgan", "resultat": "2m00", "annee": "2003" },
     { "epreuve": "Poids", "nom": "GETS Damien", "resultat": "11m28", "annee": "" },
@@ -773,4 +773,5 @@
       {"epreuve":"Heptathlon","nom":"VANHAMME Caroline","resultat":"5082pts","annee":2023}
     ]
   }
+
 }
