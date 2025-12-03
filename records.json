@@ -2,9 +2,9 @@
 
   "benjamins_indoor": {
     "garcons": [
-      {"epreuve":"60m","nom":"FONTAINE Olivier, EVRARD Gilles","resultat":"9\"14","annee":null},
+      {"epreuve":"60m","nom":"FONTAINE Olivier, EVRARD Gilles","resultat":"9\"41","annee":null},
       {"epreuve":"1000m","nom":"CADRON Julien","resultat":"3'34\"00","annee":2000},
-      {"epreuve":"4x200m","nom":"DEFERNEZ G - DERICQ E - THONNARD L - TOBEAERT A","resultat":"2'13\"70","annee":2020},
+      {"epreuve":"4x200m","nom":"DEFFERNEZ G - DERICQ E - THONNARD L - TOEBAERT A","resultat":"2'31\"70","annee":2020},
       {"epreuve":"hauteur","nom":"FONTAINE Olivier","resultat":"1m35","annee":null},
       {"epreuve":"longueur","nom":"EVRARD Gilles","resultat":"4m08","annee":null},
       {"epreuve":"poids","nom":"EVRARD Gilles","resultat":"9m51","annee":null},
@@ -13,10 +13,10 @@
     ],
     "filles": [
       {"epreuve":"40m","nom":"DUBOIS Rihley","resultat":"7\"35","annee":2018},
-      {"epreuve":"60m","nom":"ATSAKENA NKONO Margot","resultat":"9\"25","annee":2016},
-      {"epreuve":"1000m","nom":"NOULLET Audrey","resultat":"3'54\"68","annee":2020},
+      {"epreuve":"60m","nom":"ATSAKENA NKONO Margot","resultat":"9\"52","annee":2016},
+      {"epreuve":"1000m","nom":"NOULLET Audrey","resultat":"3'54\"68","annee":2000},
       {"epreuve":"4x200m","nom":"LEKOEUCHE L - FONTAINE L - BOCQUET A - CASIER R","resultat":"2'39\"16","annee":2020},
-      {"epreuve":"hauteur","nom":"HAINAUT M., OURDIAU A","resultat":"1m08","annee":null},
+      {"epreuve":"hauteur","nom":"HAINAUT M., SOURDIAU A","resultat":"1m08","annee":null},
       {"epreuve":"longueur","nom":"VAN HERPE Ophélie","resultat":"3m67","annee":2007},
       {"epreuve":"poids","nom":"DELAUW Elise","resultat":"8m38","annee":2006},
       {"epreuve":"triathlon","nom":"SOURDIAU Aline","resultat":"951pts","annee":null},
@@ -90,7 +90,7 @@
     {"epreuve":"hauteur","nom":"FONTAINE Olivier","resultat":"1m57","annee":null},
     {"epreuve":"longueur","nom":"VASSEUR David","resultat":"4m65","annee":null},
     {"epreuve":"b. hockey","nom":"FONTAINE Olivier","resultat":"46m21","annee":2000},
-    {"epreuve":"poids","nom":"GEST Florent","resultat":"11m40","annee":2002},
+    {"epreuve":"poids","nom":"GETS Florent","resultat":"11m40","annee":2002},
     {"epreuve":"disque","nom":"VAN DAELE Quentin","resultat":"26m13","annee":2003},
     {"epreuve":"triathlon","nom":"DE PAEPE Pierre","resultat":"1538pts","annee":null},
     {"epreuve":"tetrathlon","nom":"FONTAINE Olivier","resultat":"2296pts","annee":1999}
@@ -115,12 +115,10 @@
 },
 "minimes_indoor": {
   "garcons": [
-    { "epreuve": "40m", "nom": "CLAES Riwan", "resultat": "7\"57", "annee": "2014" },
-    { "epreuve": "1000m", "nom": "BARA Paul", "resultat": "3'23''06", "annee": "2006" },
     { "epreuve": "40m", "nom": "CLAES Melvyn", "resultat": "6\"92", "annee": "2014" },
     { "epreuve": "60m", "nom": "DE CRUYNAERE Grégoire", "resultat": "8\"17", "annee": "2005" },
     { "epreuve": "150m", "nom": "DE CRUYNAERE Grégoire", "resultat": "19\"95", "annee": "2005" },
-    { "epreuve": "", "nom": "NIKOT Jérémy", "resultat": "", "annee": "2006" },
+    { "epreuve": "150", "nom": "NIKOT Jérémy", "resultat": "19\"95", "annee": "2006" },
     { "epreuve": "200m", "nom": "CAILTEUX Eric", "resultat": "26\"56", "annee": "" },
     { "epreuve": "1000m", "nom": "RENARD Julien", "resultat": "3'10\"98", "annee": "2005" },
     { "epreuve": "60H", "nom": "RUFFFACQ Quentin", "resultat": "10\"01", "annee": "2002" },
@@ -135,7 +133,6 @@
     { "epreuve": "Pentathlon", "nom": "RUFFACQ Quentin", "resultat": "3097pts", "annee": "2002" }
   ],
   "filles": [
-    { "epreuve": "60m", "nom": "DE LiL Aurelie", "resultat": "8\"81", "annee": "2019" },
     { "epreuve": "40m", "nom": "DEMETS Elodie", "resultat": "7\"41", "annee": "2018" },
     { "epreuve": "60m", "nom": "COSSEZ Perrine", "resultat": "8\"10", "annee": "2015" },
     { "epreuve": "150m", "nom": "COSSEZ Perrine", "resultat": "20\"01", "annee": "2015" },
