@@ -304,7 +304,7 @@
     },
 "scolaires_indoor": {
     "garcons": [
-      { "epreuve": "60m", "nom": "ATSAKENA NKOND Edgar", "resultat": "7\"28", "annee": 2022 },
+      { "epreuve": "60m", "nom": "ATSAKENA NKONO Edgar", "resultat": "7\"28", "annee": 2022 },
       { "epreuve": "200m", "nom": "DE CRUYNAERE Grégoire", "resultat": "23\"24", "annee": 2009 },
       { "epreuve": "300m", "nom": "DE CRUYNAERE Grégoire", "resultat": "37\"13", "annee": 2010 },
       { "epreuve": "400m", "nom": "DE CRUYNAERE Grégoire", "resultat": "52\"20", "annee": 2009 },
@@ -312,14 +312,14 @@
       { "epreuve": "1000m", "nom": "HERMANS Kylian", "resultat": "2'47\"81", "annee": 2016 },
       { "epreuve": "1500m", "nom": "RUSCART Benoit", "resultat": "4'30\"26", "annee": 2012 },
       { "epreuve": "60H", "nom": "DELAVALLEE Philippe", "resultat": "8\"29", "annee": 2007 },
-      { "epreuve": "4x200m", "nom": "VANDAEL Q - CLEMENT A - ALBERT A - DE CRUYNAERE G", "resultat": "1'37\"45", "annee": 2009 },
+      { "epreuve": "4x200m", "nom": "VANDAEL Q, CLEMENT A, ALBERT A, DE CRUYNAERE G", "resultat": "1'37\"45", "annee": 2009 },
       { "epreuve": "Hauteur", "nom": "SCHOMELHOUD Michael", "resultat": "1m97", "annee": 2004 },
       { "epreuve": "Longueur", "nom": "D'HEYGERE Jerome", "resultat": "6m41", "annee": 2007 },
-      { "epreuve": "triple saut", "nom": "D'HEYGERE Jerome", "resultat": "13m07", "annee": 2006 },
-      { "epreuve": "perche", "nom": "RAUSIN Lucien", "resultat": "4m05", "annee": 2024 },
+      { "epreuve": "Triple saut", "nom": "D'HEYGERE Jerome", "resultat": "13m07", "annee": 2006 },
+      { "epreuve": "Perche", "nom": "RAUSIN Lucien", "resultat": "4m05", "annee": 2024 },
       { "epreuve": "Poids", "nom": "GETS Florent", "resultat": "15m09", "annee": 2008 },
-      { "epreuve": "hexathlon", "nom": "DECOTTIGNIES Alain", "resultat": "5280pts", "annee": null },
-      { "epreuve": "heptathlon", "nom": "GETS Florent", "resultat": "4612pts", "annee": 2008 }
+      { "epreuve": "Hexathlon", "nom": "DECOTTIGNIES Alain", "resultat": "5280pts", "annee": null },
+      { "epreuve": "Heptathlon", "nom": "GETS Florent", "resultat": "4612pts", "annee": 2008 }
     ],
     "filles": [
       { "epreuve": "60m", "nom": "HENNART Sandrine", "resultat": "7\"57", "annee": 1989 },
@@ -330,13 +330,13 @@
       { "epreuve": "1000m", "nom": "FIEVEZ Catherine", "resultat": "3'12\"39", "annee": 2004 },
       { "epreuve": "1500m", "nom": "FIEVEZ Catherine", "resultat": "4'46\"40", "annee": 2005 },
       { "epreuve": "60H", "nom": "ATSAKENA NKONO Margot", "resultat": "8\"84", "annee": 2023 },
-      { "epreuve": "4x200m", "nom": "WANDJI M - DEWORME E - CARLIER L - ATSAKENA NKONO M", "resultat": "1'49\"46", "annee": 2024 },
+      { "epreuve": "4x200m", "nom": "WANDJI M, DEWORME E, CARLIER L, ATSAKENA NKONO M", "resultat": "1'49\"46", "annee": 2024 },
       { "epreuve": "Hauteur", "nom": "DELCUEILLERIE Stéphanie", "resultat": "1m65", "annee": null },
       { "epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "6m06", "annee": 1989 },
-      { "epreuve": "triple saut", "nom": "DISY Audrey", "resultat": "10m26", "annee": null },
-      { "epreuve": "perche", "nom": "HAULET Victoria", "resultat": "2m55", "annee": 2023 },
+      { "epreuve": "Triple saut", "nom": "DISY Audrey", "resultat": "10m26", "annee": null },
+      { "epreuve": "Perche", "nom": "HAULET Victoria", "resultat": "2m55", "annee": 2023 },
       { "epreuve": "Poids", "nom": "CARBONNELLE Stéphanie", "resultat": "10m40", "annee": 2015 },
-      { "epreuve": "pentathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "3414pts", "annee": 2015 }
+      { "epreuve": "Pentathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "3414pts", "annee": 2015 }
     ]
   },
   "scolaires_outdoor": {
@@ -349,7 +349,7 @@
       { "epreuve": "400m", "nom": "STAELENS Olivier", "resultat": "49\"8", "annee": 1985 },
       { "epreuve": "800m", "nom": "DUBOIS Pascal", "resultat": "1'55\"7", "annee": null },
       { "epreuve": "1000m", "nom": "DUBOIS Pascal", "resultat": "2'33\"64", "annee": null },
-      { "epreuve": "Mile", "nom": "MESSIAEN Stéphane", "resultat": "4'31\"43", "annee": null },
+      { "epreuve": "Mile", "nom": "MESSIAEN Stéphane", "resultat": "4'43\"2", "annee": null },
       { "epreuve": "1500m", "nom": "DUBOIS Pascal", "resultat": "3'59\"70", "annee": null },
       { "epreuve": "2000m", "nom": "DUMONT Jérémie", "resultat": "6'56\"0", "annee": null },
       { "epreuve": "3000m", "nom": "HERNOULD Franky", "resultat": "8'41\"96", "annee": 2003 },
@@ -357,27 +357,26 @@
       { "epreuve": "110H", "nom": "DELAVALLEE Philippe", "resultat": "14\"58", "annee": 2007 },
       { "epreuve": "300H", "nom": "VASSEUR David", "resultat": "37\"3 TM", "annee": null },
       { "epreuve": "400H", "nom": "SALVE Pierre", "resultat": "59\"58", "annee": 2006 },
-      { "epreuve": "2000m St.", "nom": "VANDENDECK Sébastien", "resultat": "6'05\"79", "annee": null },
+      { "epreuve": "2000m St.", "nom": "VANDENDIJCK Sébastien", "resultat": "6'05\"79", "annee": null },
       { "epreuve": "3km marche", "nom": "VERMANDER Samuel", "resultat": "23'12\"19", "annee": 2016 },
-      { "epreuve": "4x100m", "nom": "BEUCART M - TAVERNIER L - DEPRET F - ROSSIGNOL T", "resultat": "44\"12", "annee": 2015 },
-      { "epreuve": "4x200m", "nom": "VAN DAELE Q - MICHEL R - CLEMENT A - DE CRUYNAERE", "resultat": "1'34\"73", "annee": 2009 },
-      { "epreuve": "4x800m", "nom": "OBSOMER - PLATEAU - SERVAIS - DETEMMERMAN", "resultat": "8'10\"5", "annee": null },
-      { "epreuve": "relais malais", "nom": "ROULETTE A - DELLOYE R", "resultat": "3'52\"61", "annee": 2005 },
-      { "epreuve": "relais olympique", "nom": "VERSTRAETEN S - GILMET J - CAMPENER C - DELAVALLEE", "resultat": "2'06\"7", "annee": 2007 },
-      { "epreuve": "relais suédois", "nom": "D'HEYGERE J - HENNEQUIN A - CAMPENER C", "resultat": "2m08", "annee": 2007 },
-      { "epreuve": "Hauteur", "nom": "VASSEUR David", "resultat": "2m", "annee": null },
-      { "epreuve": "Longueur", "nom": "TORDOIR Xavier", "resultat": "6m82", "annee": null },
-      { "epreuve": "triple saut", "nom": "VASSEUR David", "resultat": "13m81", "annee": null },
-      { "epreuve": "perche", "nom": "RAUSIN Lucien", "resultat": "4m40", "annee": 2024 },
+      { "epreuve": "4x100m", "nom": "BEUSCART M, TAVERNIER L, DEPRET F, ROSSIGNOL T", "resultat": "44\"12", "annee": 2015 },
+      { "epreuve": "4x200m", "nom": "VAN DAELE Q, MICHEL R, CLEMENT A, DE CRUYNAERE", "resultat": "1'34\"73", "annee": 2009 },
+      { "epreuve": "4x800m", "nom": "OBSOMER, PLATEAU, SERVAIS, DETEMMERMAN", "resultat": "8'10\"5", "annee": null },
+      { "epreuve": "relais olympique", "nom": "ROULETTE A, DELLOYE R, VERSTRAETEN S, GILMET J", "resultat": "3'52\"61", "annee": 2005 },
+      { "epreuve": "relais suédois", "nom": "DELAVALLEE P, D'HEYGERE J - HENNEQUIN A - CAMPENER C", "resultat": "2'06\"7", "annee": 2007 },
+      { "epreuve": "Hauteur", "nom": "CAMPENER Corentin", "resultat": "2m08", "annee": 2007 },
+      { "epreuve": "Longueur", "nom": "TORDOIR Xavier, VASSEUR David", "resultat": "6m82", "annee": null },
+      { "epreuve": "Triple saut", "nom": "VASSEUR David", "resultat": "13m81", "annee": null },
+      { "epreuve": "Perche", "nom": "RAUSIN Lucien", "resultat": "4m40", "annee": 2024 },
       { "epreuve": "Poids", "nom": "GETS Florent", "resultat": "15m33", "annee": 2008 },
       { "epreuve": "Disque", "nom": "DECOTTIGNIES Alain", "resultat": "46m28", "annee": null },
-      { "epreuve": "marteau", "nom": "DECOTTIGNIES Alain", "resultat": "53m68", "annee": null },
-      { "epreuve": "Javelot", "nom": "POTY Antoine (ancien jav.)", "resultat": "56m31", "annee": 2019 },
-      { "epreuve": "marteau", "nom": "HENNEQUIN Alderic", "resultat": "48m79", "annee": 2008 },
-      { "epreuve": "pentathlon", "nom": "DEHAENE Patrick", "resultat": "3023pts", "annee": null },
-      { "epreuve": "octathlon", "nom": "DECOTTIGNIES Alain", "resultat": "5280pts", "annee": null },
-      { "epreuve": "nonathlon", "nom": "GETS Florent", "resultat": "5883pts", "annee": 2018 },
-      { "epreuve": "décathlon", "nom": "CLAES Melvyn", "resultat": "5188pts", "annee": 2008 }
+      { "epreuve": "Javelot", "nom": "DECOTTIGNIES Alain (ancien jav)", "resultat": "53m68", "annee": null },
+      { "epreuve": "Javelot", "nom": "POTY Antoine", "resultat": "56m31", "annee": 2019 },
+      { "epreuve": "Marteau", "nom": "HENNEQUIN Alderic", "resultat": "48m79", "annee": 2008 },
+      { "epreuve": "Pentathlon", "nom": "DEHAENE Patrick", "resultat": "3023pts", "annee": null },
+      { "epreuve": "Octathlon", "nom": "DECOTTIGNIES Alain", "resultat": "5280pts", "annee": null },
+      { "epreuve": "Nonathlon", "nom": "GETS Florent", "resultat": "5883pts", "annee": 2018 },
+      { "epreuve": "Décathlon", "nom": "CLAES Melvyn", "resultat": "5188pts", "annee": 2008 }
     ],
     "filles": [
       { "epreuve": "60m", "nom": "BRUNEAU Chantal", "resultat": "8\"3", "annee": null },
@@ -406,15 +405,15 @@
       { "epreuve": "relais suédois", "nom": "DELCUEILLERIE Stéphanie", "resultat": "1m65", "annee": null },
       { "epreuve": "Hauteur", "nom": "DELEM Isabelle", "resultat": "1m65", "annee": null },
       { "epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "6m23", "annee": 1989 },
-      { "epreuve": "triple saut", "nom": "CARLIER Lucie", "resultat": "11m05", "annee": 2023 },
-      { "epreuve": "perche", "nom": "HAULET Victoria", "resultat": "2m67", "annee": 2023 },
+      { "epreuve": "Triple saut", "nom": "CARLIER Lucie", "resultat": "11m05", "annee": 2023 },
+      { "epreuve": "Perche", "nom": "HAULET Victoria", "resultat": "2m67", "annee": 2023 },
       { "epreuve": "Poids", "nom": "POOT Elise", "resultat": "11m03", "annee": 2019 },
       { "epreuve": "Disque", "nom": "VANDEWINKEL Martine", "resultat": "32m06", "annee": null },
       { "epreuve": "Javelot", "nom": "DELRIVIERE Jennifer", "resultat": "35m61", "annee": 2023 },
-      { "epreuve": "marteau", "nom": "LECOUVEZ Noémie", "resultat": "37m50", "annee": 2012 },
+      { "epreuve": "Marteau", "nom": "LECOUVEZ Noémie", "resultat": "37m50", "annee": 2012 },
       { "epreuve": "Triathlon", "nom": "HONORE Cécile", "resultat": "1299pts", "annee": null },
-      { "epreuve": "tétrathlon", "nom": "BRUNEAU Chantal", "resultat": "2369pts", "annee": null },
-      { "epreuve": "heptathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "4537pts", "annee": 2015 }
+      { "epreuve": "Tétrathlon", "nom": "BRUNEAU Chantal", "resultat": "2369pts", "annee": null },
+      { "epreuve": "Heptathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "4537pts", "annee": 2015 }
     ]
   },
 
@@ -495,8 +494,8 @@
       {"epreuve":"Marteau lourd","nom":"POTY Antoine","resultat":"53m86","annee":2021},
       {"epreuve":"Marteau lourd (11kg 340)","nom":"OUTHOO Thomas","resultat":"10m58","annee":2020},
       {"epreuve":"Marteau (6kg)","nom":"ABSIL Jean-Paul","resultat":"2835pts","annee":null},
-      {"epreuve":"Penthalancers","nom":"OUTHOO Thomas","resultat":"1895pts","annee":2020},
-      {"epreuve":"Pentahlancers","nom":"DUTHOO Thomas","resultat":"6780pts","annee":2010},
+      {"epreuve":"Pentalancers","nom":"OUTHOO Thomas","resultat":"1895pts","annee":2020},
+      {"epreuve":"Pentalancers","nom":"DUTHOO Thomas","resultat":"6780pts","annee":2010},
       {"epreuve":"Décathlon","nom":"GETS Florent","resultat":"6780pts","annee":2010}
     ],
     "filles": [
@@ -616,7 +615,7 @@
       {"epreuve":"Triathlon","nom":"GETS Florent","resultat":"1931pts","annee":2013},
       {"epreuve":"Pentathlon","nom":"FONTAINE Marc","resultat":"3480pts","annee":null},
       {"epreuve":"Décathlon","nom":"GETS Florent","resultat":"6966pts","annee":2012},
-      {"epreuve":"Penthalancers","nom":"DUTHOO Antoine","resultat":"1618pts","annee":2020}
+      {"epreuve":"Pentalancers","nom":"DUTHOO Antoine","resultat":"1618pts","annee":2020}
     ],
     "filles": [
       {"epreuve":"100m","nom":"DENIS Valérie","resultat":"11\"83","annee":1990},
