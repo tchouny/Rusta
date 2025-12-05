@@ -11,6 +11,21 @@
   /* Variable pour arrondir les coins */
   --shadow: 0 4px 12px rgba(16, 24, 40, 0.05);
   /* Ombre douce pour les sections */
+  --separator-color: #adb5bd;
+  /* Couleur de séparation des genres (Gris moyen) */
+
+  /* NOUVELLES COULEURS POUR LA SECTION FILLES (Vert) */
+  --girls-header-color: #14532d;   /* Vert foncé pour le header */
+  --girls-bg-color-odd: #e0f6e9;   /* Vert clair moyen pour les lignes impaires */
+  --girls-bg-color-even: #f0fff4;  /* Vert très pâle pour les lignes paires */
+
+  /* NOUVELLES COULEURS POUR LA SECTION GARÇONS (Bleu/Blanc) - Pour un effet zébré */
+  --boys-bg-color-odd: #e8f4ff;    /* Bleu très pâle pour les lignes impaires */
+  --boys-bg-color-even: #fbfcfe;   /* Bleu/Blanc encore plus clair pour les lignes paires */
+
+  /* NOUVELLES COULEURS DE BORDURE */
+  --boys-border-color: #60a5fa;    /* Bleu clair pour les bordures Garçons */
+  --girls-border-color: #34d399;   /* Vert clair pour les bordures Filles */
 }
 
 * {
@@ -264,8 +279,26 @@ td {
   font-size: 0.95rem;
 }
 
+/*
+  NOTE: Nous définissons une bordure grise par défaut ci-dessus (var(--gray)).
+  Les règles spécifiques ci-dessous vont écraser le 'border-color' pour donner l'effet bicolore.
+*/
+
+/* 1. Bordures Bleues pour les Garçons (Colonnes 1 à 4) */
+th:nth-child(-n+4),
+td:nth-child(-n+4) {
+  border-color: var(--boys-border-color);
+}
+
+/* 2. Bordures Vertes pour les Filles (Colonnes 5 à 8) */
+th:nth-child(n+5),
+td:nth-child(n+5) {
+  border-color: var(--girls-border-color);
+}
+
+
 th {
-  /* Utilisation du primary foncé pour un contraste maximal sur l'en-tête */
+  /* Utilisation du primary foncé pour un contraste maximal sur l'en-tête (Garçons par défaut) */
   background-color: var(--primary);
   color: var(--white);
   font-weight: 800;
@@ -273,10 +306,62 @@ th {
   text-transform: uppercase;
 }
 
-tbody tr:nth-child(odd) {
-  /* Rayures pour la lisibilité */
-  background-color: #fbfcfe;
+
+/* NOUVELLES RÈGLES POUR LA COULEUR DES FILLES ET LES RAYURES */
+
+/* COULEURS DU HEADER FILLES */
+
+/* Header Filles (Ligne 1 - Cellule colspan="4") */
+table thead tr:first-child th:nth-child(2) {
+  background-color: var(--girls-header-color);
 }
+
+/* Header Filles (Ligne 2 - Colonnes 5 à 8) */
+table thead tr:nth-child(2) th:nth-child(n+5) {
+  background-color: var(--girls-header-color);
+}
+
+
+/* COULEURS DU CORPS DU TABLEAU (tbody) pour les rayures Garçons/Filles */
+
+/* Rayures Lignes IMPAIRES Garçons (Colonnes 1 à 4) */
+tbody tr:nth-child(odd) td:nth-child(-n+4) {
+  background-color: var(--boys-bg-color-odd);
+}
+
+/* Rayures Lignes PAIRS Garçons (Colonnes 1 à 4) - Ajout explicite pour le bicolore */
+tbody tr:nth-child(even) td:nth-child(-n+4) {
+  background-color: var(--boys-bg-color-even);
+}
+
+/* Rayures Lignes PAIRS Filles (Colonnes 5 à 8) */
+tbody tr:nth-child(even) td:nth-child(n+5) {
+  background-color: var(--girls-bg-color-even);
+}
+
+/* Rayures Lignes IMPAIRES Filles (Colonnes 5 à 8) */
+tbody tr:nth-child(odd) td:nth-child(n+5) {
+  background-color: var(--girls-bg-color-odd);
+}
+
+
+/* RÈGLES DE SÉPARATION GRISÉE ET ÉPAISSE (Garçons/Filles) - Priorité sur la bordure bleue/verte */
+
+/* Séparation dans la première ligne d'en-tête (entre Garçons et Filles) */
+table thead tr:first-child th:first-child {
+  border-right: 4px solid var(--separator-color);
+}
+
+/* Séparation dans la deuxième ligne d'en-tête (colonne Année Garçons) */
+table thead tr:nth-child(2) th:nth-child(4) {
+  border-right: 4px solid var(--separator-color);
+}
+
+/* Séparation dans le corps du tableau (colonne Année Garçons) */
+tbody tr td:nth-child(4) {
+  border-right: 4px solid var(--separator-color);
+}
+
 
 /* Style pour le surlignage des termes de recherche (BLEU CLAIR) */
 .highlight {
@@ -508,43 +593,54 @@ textarea {
     font-size: 1rem;
     padding: 12px 10px;
   }
-  
+
   /* ⬇️ CORRECTION POUR LE FORMULAIRE MODAL (RÉVISION) ⬇️ */
-  
+
   /* 1. Aligne en haut et permet le défilement */
   .modal-backdrop {
-    align-items: flex-start; /* Aligne le modal en haut de l'écran */
-    padding-top: 10px;       /* Réduit la marge en haut pour maximiser l'espace */
+    align-items: flex-start;
+    /* Aligne le modal en haut de l'écran */
+    padding-top: 10px;
+    /* Réduit la marge en haut pour maximiser l'espace */
   }
 
   .modal {
-    max-height: 98vh;        /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
-    padding: 15px;           /* Réduit le padding interne du modal de 25px à 15px */
-    overflow-y: auto;        /* Assure que le contenu est défilable */
+    max-height: 98vh;
+    /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
+    padding: 15px;
+    /* Réduit le padding interne du modal de 25px à 15px */
+    overflow-y: auto;
+    /* Assure que le contenu est défilable */
   }
 
   /* 2. Diminue la taille des éléments internes du formulaire */
   .modal h3 {
     font-size: 1.3rem;
   }
-  
+
   .form-row {
-    margin-bottom: 10px; /* Réduit la marge verticale entre les lignes de 15px à 10px */
-    gap: 8px; /* Réduit l'espace entre les colonnes */
+    margin-bottom: 10px;
+    /* Réduit la marge verticale entre les lignes de 15px à 10px */
+    gap: 8px;
+    /* Réduit l'espace entre les colonnes */
   }
 
   label {
-    font-size: 0.85rem; /* Réduit la police des labels pour gagner de la hauteur */
+    font-size: 0.85rem;
+    /* Réduit la police des labels pour gagner de la hauteur */
   }
 
   .input,
   textarea,
   select {
-    padding: 8px; /* Réduit le padding des champs de saisie de 10px à 8px */
-    font-size: 0.9rem; /* Réduit la police des champs */
+    padding: 8px;
+    /* Réduit le padding des champs de saisie de 10px à 8px */
+    font-size: 0.9rem;
+    /* Réduit la police des champs */
   }
 
   .modal-actions {
-    margin-top: 10px; /* Réduit la marge au-dessus des boutons */
+    margin-top: 10px;
+    /* Réduit la marge au-dessus des boutons */
   }
 }

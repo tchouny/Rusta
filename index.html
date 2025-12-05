@@ -747,6 +747,12 @@
             </label>
             <input class="input" id="resultat" name="resultat" required="" />
           </div>
+          <div class="col">
+            <label for="lieu">
+              Lieu
+            </label>
+            <input class="input" id="lieu" name="lieu" />
+          </div>
         </div>
         <div>
           <label for="comment">
@@ -947,7 +953,7 @@
     loadRecords();
 
 
-    // 4. Logique de la modale et du feedback (inchangée)
+    // 4. Logique de la modale et du feedback (mise à jour pour inclure le champ Lieu)
     const modalRoot = document.getElementById('modal-root');
     const form = document.getElementById('report-form');
     const cancelBtn = document.getElementById('btn-cancel');
@@ -1008,6 +1014,7 @@
         `Épreuve: ${payload.epreuve || ''}`,
         `Nom Prénom: ${payload.nom || ''}`,
         `Résultat: ${payload.resultat || ''}`,
+        `Lieu: ${payload.lieu || ''}`, // NOUVEAU CHAMP AJOUTÉ
         `Année: ${payload.annee || ''}`,
         `Commentaire: ${payload.comment || ''}`,
         ``,
