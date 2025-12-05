@@ -1,1028 +1,191 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width,initial-scale=1" name="viewport" />
-  <title>
-    RUSTA - Records du club
-  </title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet" />
-  <link href="records.css" rel="stylesheet" />
-</head>
-
-<body id="top">
-  <header>
-    <div class="title">
-      RUSTA - Records du club
-    </div>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RUSTA - Records du club</title>
+  <link rel="stylesheet" href="<header id="top">
+    <div class="title">RUSTA - Records du club</div>
     <nav>
-      <label for="category-select">
-        Choisissez une catégorie :
-      </label>
-      <select id="category-select" name="category">
-        <option value="#benjamins_indoor">
-          Records Benjamin(e)s - Indoor
-        </option>
-        <option value="#benjamins_outdoor">
-          Records Benjamin(e)s - Outdoor
-        </option>
-        <option value="#pupilles_indoor">
-          Records Pupilles - Indoor
-        </option>
-        <option value="#pupilles_outdoor">
-          Records Pupilles - Outdoor
-        </option>
-        <option value="#minimes_indoor">
-          Records Minimes - Indoor
-        </option>
-        <option value="#minimes_outdoor">
-          Records Minimes - Outdoor
-        </option>
-        <option value="#cadets_indoor">
-          Records Cadet(te)s - Indoor
-        </option>
-        <option value="#cadets_outdoor">
-          Records Cadet(te)s - Outdoor
-        </option>
-        <option value="#scolaires_indoor">
-          Records Scolaires - Indoor
-        </option>
-        <option value="#scolaires_outdoor">
-          Records Scolaires - Outdoor
-        </option>
-        <option value="#juniors_indoor">
-          Records Juniors - Indoor
-        </option>
-        <option value="#juniors_outdoor">
-          Records Juniors - Outdoor
-        </option>
-        <option value="#seniors_indoor">
-          Records Seniors - Indoor
-        </option>
-        <option value="#seniors_outdoor">
-          Records Seniors - Outdoor
-        </option>
-        <option value="#tc_indoor">
-          Records TC - Indoor
-        </option>
-        <option value="#tc_outdoor">
-          Records TC - Outdoor
-        </option>
+      <label for="category-select">Choisissez une catégorie :</label>
+      <select id="category-select">
+        <option value="benjamins-indoor">Records Benjamin(e)s - Indoor</option>
+        <option value="benjamins-outdoor">Records Benjamin(e)s - Outdoor</option>
+        <option value="pupilles-indoor">Records Pupilles - Indoor</option>
+        <option value="pupilles-outdoor">Records Pupilles - Outdoor</option>
+        <option value="minimes-indoor">Records Minimes - Indoor</option>
+        <option value="minimes-outdoor">Records Minimes - Outdoor</option>
+        <option value="cadets-indoor">Records Cadet(te)s - Indoor</option>
+        <option value="cadets-outdoor">Records Cadet(te)s - Outdoor</option>
+        <option value="scolaires-indoor">Records Scolaires - Indoor</option>
+        <option value="scolaires-outdoor">Records Scolaires - Outdoor</option>
+        <option value="juniors-indoor">Records Juniors - Indoor</option>
+        <option value="juniors-outdoor">Records Juniors - Outdoor</option>
+        <option value="seniors-indoor">Records Seniors - Indoor</option>
+        <option value="seniors-outdoor">Records Seniors - Outdoor</option>
+        <option value="tc-indoor">Records TC - Indoor</option>
+        <option value="tc-outdoor">Records TC - Outdoor</option>
       </select>
     </nav>
   </header>
 
-  <main id="content">
+  <main>
     <div class="search-container">
-      <label for="search-input">
-        Rechercher dans la catégorie : <span id="current-category-name"></span>
-      </label>
+      <label for="search-input">Rechercher dans la catégorie : <span id="current-category-name">Benjamin(e)s - Indoor</span></label>
       <div class="search-input-wrapper">
-        <input class="input" id="search-input" placeholder="Tapez un nom, une épreuve ou un résultat..." type="text" />
-        <button class="clear-search-button" id="clear-search-button" type="button" aria-label="Effacer la recherche"
-          style="display: none;">
-          &times;
-        </button>
+        <input id="search-input" type="text" placeholder="Tapez un nom, une épreuve..." />
+        <button class="clear-search-button" aria-label="Effacer la recherche">×</button>
       </div>
     </div>
 
     <div class="report-button-container">
-      <button class="form-button" id="btn-report-global" type="button">
-        Signaler un record pour cette catégorie
-      </button>
+      <button id="btn-report-global" class="form-button">Signaler un record pour cette catégorie</button>
     </div>
 
-    <section aria-labelledby="benjamins_indoor_title" id="benjamins_indoor" class="active-section">
-      <h2 id="benjamins_indoor_title">
-        Records Benjamin(e)s - Indoor
-      </h2>
-      <table aria-describedby="desc-benjamins_indoor">
-        <caption id="desc-benjamins_indoor" style="display:none">
-          Tableau des records Benjamin(e)s indoor
-        </caption>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
+    <!-- ====== Extrait d’une section (la structure se répète pour chaque catégorie) ====== -->
+    <section id="benjamins-indoor" class="active-section">
+      <h2>Records Benjamin(e)s - Indoor</h2>
+
+      <table>
+        <tr>
+          <th colspan="4">Garçons</th>
+          <th colspan="4">Filles</th>
+        </tr>
+        <tr>
+          <th>Épreuve</th>
+          <th>Nom Prénom</th>
+          <th>Résultat</th>
+          <th>Année</th>
+          <th>Épreuve</th>
+          <th>Nom Prénom</th>
+          <th>Résultat</th>
+          <th>Année</th>
+        </tr>
+        <!-- lignes de données (exemple) -->
       </table>
-      <p class="empty-state" id="benjamins_indoor-empty-state" style="display:none;">
-        ❌ Aucun record ne correspond à votre recherche dans cette catégorie.
-      </p>
+
+      <div class="empty-state">❌ Aucun record ne correspond à votre recherche dans cette catégorie.</div>
     </section>
 
-    <section id="benjamins_outdoor">
-      <h2 id="benjamins_outdoor_title">
-        Records Benjamin(e)s - Outdoor
-      </h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="benjamins_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à
-        votre recherche dans cette catégorie.</p>
-    </section>
+    <!-- (Les autres sections similaires sont présentes de la même manière) -->
+    <!-- ... -->
 
-    <section id="pupilles_indoor">
-      <h2 id="pupilles_indoor_title">Records Pupilles - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="pupilles_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+    <!-- ========================= MODALE SIGNALER UN RECORD ========================= -->
+    <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="report-title">
+        <h3 id="report-title">Signaler un record</h3>
 
-    <section id="pupilles_outdoor">
-      <h2 id="pupilles_outdoor_title">Records Pupilles - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="pupilles_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à
-        votre recherche dans cette catégorie.</p>
-    </section>
+        <!-- Ligne 1 : Indoor/Outdoor + Garçons/Filles -->
+        <div class="form-row">
+          <div class="col">
+            <label for="category-io">Indoor/Outdoor</label>
+            <select id="category-io" name="category_io" class="input">
+              <option value="indoor">Indoor</option>
+              <option value="outdoor">Outdoor</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="gender">Garçons/Filles</label>
+            <select id="gender" name="gender" class="input">
+              <option value="garcons">Garçons</option>
+              <option value="filles">Filles</option>
+            </select>
+          </div>
+        </div>
 
-    <section id="minimes_indoor">
-      <h2 id="minimes_indoor_title">Records Minimes - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="minimes_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+        <!-- Épreuve -->
+        <label for="event">Épreuve</label>
+        <input id="event" name="event" class="input" type="text" placeholder="ex: 60m, 1000m, Hauteur..." />
 
-    <section id="minimes_outdoor">
-      <h2 id="minimes_outdoor_title">Records Minimes - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="minimes_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+        <!-- Ligne 2 : Nom + Année -->
+        <div class="form-row">
+          <div class="col">
+            <label for="athlete">Nom Prénom</label>
+            <input id="athlete" name="athlete" class="input" type="text" placeholder="ex: DUPONT Alice" />
+          </div>
+          <div class="col">
+            <label for="year">Année</label>
+            <input id="year" name="year" class="input" type="text" inputmode="numeric" placeholder="YYYY" />
+          </div>
+        </div>
 
-    <section id="cadets_indoor">
-      <h2 id="cadets_indoor_title">Records Cadet(e)s - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="cadets_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+        <!-- *** LIGNE MODIFIÉE : Résultat (réduit) + Lieu (ajouté) *** -->
+        <div class="form-row">
+          <div class="col col-2">
+            <label for="result">Résultat</label>
+            <input id="result" name="result" class="input" type="text" placeholder="ex: 9'41 / 1m35 / 13'17pts" />
+          </div>
+          <div class="col col-1">
+            <label for="place">Lieu</label>
+            <input id="place" name="place" class="input" type="text" placeholder="ex: Auderghem" />
+          </div>
+        </div>
 
-    <section id="cadets_outdoor">
-      <h2 id="cadets_outdoor_title">Records Cadet(e)s - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="cadets_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+        <!-- Commentaire -->
+        <label for="comment">Commentaire (optionnel)</label>
+        <textarea id="comment" name="comment" class="input" placeholder="Précisions utiles..."></textarea>
 
-    <section id="scolaires_indoor">
-      <h2 id="scolaires_indoor_title">Records Scolaires - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="scolaires_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à
-        votre recherche dans cette catégorie.</p>
-    </section>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="btn-cancel">Annuler</button>
+          <button class="form-button" id="btn-send">Envoyer par e mail</button>
+        </div>
 
-    <section id="scolaires_outdoor">
-      <h2 id="scolaires_outdoor_title">Records Scolaires - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="scolaires_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à
-        votre recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="juniors_indoor">
-      <h2 id="juniors_indoor_title">Records Juniors - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="juniors_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="juniors_outdoor">
-      <h2 id="juniors_outdoor_title">Records Juniors - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="juniors_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="seniors_indoor">
-      <h2 id="seniors_indoor_title">Records Seniors - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="seniors_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="seniors_outdoor">
-      <h2 id="seniors_outdoor_title">Records Seniors - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="seniors_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="tc_indoor">
-      <h2 id="tc_indoor_title">Records Toutes Cat&eacute;gories - Indoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="tc_indoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
-
-    <section id="tc_outdoor">
-      <h2 id="tc_outdoor_title">Records Toutes Cat&eacute;gories - Outdoor</h2>
-      <table>
-        <colgroup>
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-          <col style="width:8%" />
-          <col style="width:25%" />
-          <col style="width:9%" />
-          <col style="width:8%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Gar&ccedil;ons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-            <th scope="col">&Eacute;preuve</th>
-            <th scope="col">Nom Pr&eacute;nom</th>
-            <th scope="col">R&eacute;sultat</th>
-            <th scope="col">Ann&eacute;e</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <p class="empty-state" id="tc_outdoor-empty-state" style="display:none;">❌ Aucun record ne correspond à votre
-        recherche dans cette catégorie.</p>
-    </section>
+        <!-- Message de succès -->
+        <div class="success-message" id="success-message" style="display:none;">
+          <h4>✅ Envoi du record initié !</h4>
+          <p>Veuillez finaliser l'envoi en cliquant sur <strong>« Envoyer »</strong> dans la nouvelle fenêtre de votre logiciel de messagerie (Outlook, Thunderbird, Mail, etc.).<br>Merci pour votre contribution !</p>
+        </div>
+      </div>
+    </div>
+    <!-- ========================= FIN MODALE ========================= -->
   </main>
 
   <footer>
-    <p>
-      &copy; 2025 RUSTA. Tous droits r&eacute;serv&eacute;s.
-      |
-      <a href="mailto:laurentduthoo@gmail.com">Contact</a>
-      | Mise à jour: 04 d&eacute;cembre 2025
-    </p>
-    <a class="back-to-top" href="#top">Retour en haut &uarr;</a>
-  </footer>
+    © 2025 RUSTA. Tous droits réservés. <br />
+    mailto:laurentduthoo@gmail.comContact</a> <br />
+    Mise à jour: 04 décembre 2025
+    <a class="back-to-top" href="#ooter>
 
-  <div aria-hidden="true" class="modal-backdrop" id="modal-root">
-    <div aria-labelledby="modal-title" aria-modal="true" class="modal" role="dialog">
-      <h3 id="modal-title">
-        Signaler un record
-      </h3>
-
-      <div class="success-message" style="display: none;">
-        <h4>✅ Envoi du record initié !</h4>
-        <p>Veuillez finaliser l'envoi en cliquant sur **"Envoyer"** dans la nouvelle fenêtre de votre logiciel de
-          messagerie (Outlook, Thunderbird, Mail, etc.).</p>
-        <p>Merci pour votre contribution !</p>
-        <div class="modal-actions">
-          <button class="form-button" id="btn-success-close" type="button">Fermer</button>
-        </div>
-      </div>
-
-      <form id="report-form">
-        <input id="form-category" name="category" type="hidden" value="" />
-        <div class="form-row">
-          <div class="col">
-            <label for="type">
-              Indoor/Outdoor
-            </label>
-            <select class="input" id="type" name="type">
-              <option value="indoor">
-                Indoor
-              </option>
-              <option value="outdoor">
-                Outdoor
-              </option>
-            </select>
-          </div>
-          <div class="col">
-            <label for="gender">
-              Gar&ccedil;ons/Filles
-            </label>
-            <select class="input" id="gender" name="gender">
-              <option value="garcons">
-                Gar&ccedil;ons
-              </option>
-              <option value="filles">
-                Filles
-              </option>
-            </select>
-          </div>
-        </div>
-        <div>
-          <label for="epreuve">
-            &Eacute;preuve
-          </label>
-          <input class="input" id="epreuve" name="epreuve" required="" />
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <label for="nom">
-              Nom Pr&eacute;nom
-            </label>
-            <input class="input" id="nom" name="nom" required="" />
-          </div>
-          <div class="col">
-            <label for="annee">
-              Ann&eacute;e
-            </label>
-            <input class="input" id="annee" inputmode="numeric" name="annee" pattern="\d{4}" placeholder="YYYY" />
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <label for="resultat">
-              R&eacute;sultat
-            </label>
-            <input class="input" id="resultat" name="resultat" required="" />
-          </div>
-        </div>
-        <div>
-          <label for="comment">
-            Commentaire (optionnel)
-          </label>
-          <textarea id="comment" name="comment"></textarea>
-        </div>
-        <div class="modal-actions">
-          <button class="btn-secondary" id="btn-cancel" type="button">
-            Annuler
-          </button>
-          <button class="form-button" type="submit">
-            Envoyer par e mail
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
+  <!-- ====== JS (optionnel) : gestion modale & envoi mail ====== -->
   <script>
-    // 1. Logique de chargement des données (inchangée)
-    async function loadRecords() {
-      try {
-        const res = await fetch('records.json');
-        const data = await res.json();
-        Object.keys(data).forEach(key => {
-          const tbody = document.querySelector(`#${key} tbody`);
-          if (!tbody) return;
-          const garcons = data[key].garcons || [];
-          const filles = data[key].filles || [];
-          const max = Math.max(garcons.length, filles.length);
-          let rows = '';
-          for (let i = 0; i < max; i++) {
-            const g = garcons[i] || { epreuve: '', nom: '', resultat: '', annee: '' };
-            const f = filles[i] || { epreuve: '', nom: '', resultat: '', annee: '' };
-            rows += `<tr>
-<td>${escapeHtml(g.epreuve)}</td><td>${escapeHtml(g.nom)}</td><td>${escapeHtml(g.resultat)}</td><td>${g.annee || ''}</td>
-<td>${escapeHtml(f.epreuve)}</td><td>${escapeHtml(f.nom)}</td><td>${escapeHtml(f.resultat)}</td><td>${f.annee || ''}</td>
-</tr>`;
-          }
-          tbody.innerHTML = rows;
-        });
-        filterRecords();
+    // Ouverture / fermeture de la modale
+    const backdrop = document.getElementById('modal-backdrop');
+    const btnReport = document.getElementById('btn-report-global');
+    const btnCancel = document.getElementById('btn-cancel');
+    const btnSend = document.getElementById('btn-send');
+    const successMsg = document.getElementById('success-message');
 
-      } catch (e) {
-        console.error('Erreur lors du chargement des données', e);
-        const mainContent = document.getElementById('content');
-        if (mainContent) {
-          mainContent.innerHTML = '<p class="empty-state">⚠️ Impossible de charger les données des records. Veuillez vérifier le fichier records.json.</p>';
-        }
-      }
-    }
-
-    function escapeHtml(str) {
-      if (!str) return '';
-      return String(str).replace(/[&<>"']/g, s => ({
-        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-      }[s]));
-    }
-
-
-    // 2. Logique de Recherche, Filtrage et Surlignage (MISE À JOUR AVEC EFFACEMENT)
-    const searchInput = document.getElementById('search-input');
-    const clearSearchBtn = document.getElementById('clear-search-button');
-
-    /** Fonction utilitaire pour surligner le texte correspondant à la recherche. */
-    function highlightText(text, query) {
-      if (!query) {
-        return text;
-      }
-      // Utilise une expression régulière pour trouver toutes les occurrences (globale: g) et ignorer la casse (i)
-      const regex = new RegExp(`(${query})`, 'gi');
-      // Remplace la correspondance par le même texte enveloppé dans un span.highlight
-      return text.replace(regex, '<span class="highlight">$1</span>');
-    }
-
-    function filterRecords() {
-      const query = searchInput.value.toLowerCase().trim();
-      const activeSection = document.querySelector('.active-section');
-      if (!activeSection) return;
-
-      const tbody = activeSection.querySelector('tbody');
-      const emptyState = document.getElementById(activeSection.id + '-empty-state');
-      if (!tbody || !emptyState) return;
-
-      const rows = tbody.querySelectorAll('tr');
-      let foundCount = 0;
-
-      // Gérer l'affichage du bouton d'effacement
-      if (query.length > 0) {
-        clearSearchBtn.style.display = 'block';
-      } else {
-        clearSearchBtn.style.display = 'none';
-      }
-
-      rows.forEach(row => {
-        // Étape 1 : Nettoyer d'abord les surlignages des cellules de la ligne
-        row.querySelectorAll('td').forEach(cell => {
-          // Rétablit le contenu textuel pur
-          cell.innerHTML = cell.textContent;
-        });
-
-        // Étape 2 : Vérifier si la ligne correspond à la recherche
-        const rowText = row.textContent.toLowerCase();
-
-        if (query === '' || rowText.includes(query)) {
-          row.style.display = '';
-          foundCount++;
-
-          // Étape 3 : Surlignage si une requête est présente
-          if (query !== '') {
-            row.querySelectorAll('td').forEach(cell => {
-              const cellText = cell.textContent;
-              if (cellText.toLowerCase().includes(query)) {
-                // Applique le surlignage uniquement si la cellule contient le terme
-                cell.innerHTML = highlightText(cellText, query);
-              }
-            });
-          }
-        } else {
-          row.style.display = 'none';
-        }
-      });
-
-      if (foundCount === 0 && rows.length > 0) {
-        emptyState.style.display = 'block';
-      } else {
-        emptyState.style.display = 'none';
-      }
-    }
-
-    searchInput.addEventListener('input', filterRecords);
-
-    // Logique du bouton d'effacement
-    clearSearchBtn.addEventListener('click', () => {
-      searchInput.value = ''; // Vide le champ
-      filterRecords();      // Relance le filtre (affiche tout et masque la croix)
-      searchInput.focus();  // Replace le focus sur le champ de recherche
+    btnReport?.addEventListener('click', () => {
+      backdrop.style.display = 'flex';
+      backdrop.setAttribute('aria-hidden', 'false');
     });
 
-
-    // 3. Logique de Navigation (inchangée)
-    const categorySelect = document.getElementById('category-select');
-    const currentCategoryNameSpan = document.getElementById('current-category-name');
-    const headerElement = document.querySelector('header');
-    const searchContainer = document.querySelector('.search-container');
-
-    function updateSectionDisplay(targetAnchor) {
-      const targetId = targetAnchor.replace('#', '');
-
-      document.querySelectorAll('main section').forEach(section => {
-        section.classList.remove('active-section');
-      });
-
-      const targetSection = document.getElementById(targetId);
-      if (targetSection) {
-        targetSection.classList.add('active-section');
-
-        // Calculer la hauteur des éléments fixes (Header + Search Container + Nouveau bouton + marge)
-        const globalReportBtn = document.getElementById('btn-report-global');
-        const headerHeight = headerElement.offsetHeight;
-        const searchHeight = searchContainer.offsetHeight;
-        const buttonHeight = globalReportBtn.offsetHeight;
-
-        const totalOffset = headerHeight + searchHeight + buttonHeight + 70;
-
-        const scrollPosition = targetSection.offsetTop - totalOffset;
-
-        window.scrollTo({
-          top: scrollPosition,
-          behavior: 'smooth'
-        });
-
-
-        // Mise à jour du nom de la catégorie dans le champ de recherche
-        const selectedOption = categorySelect.querySelector(`option[value="${targetAnchor}"]`);
-        if (selectedOption) {
-          currentCategoryNameSpan.textContent = selectedOption.textContent;
-        }
-
-        // Réinitialise la recherche et applique le filtre à la nouvelle section
-        searchInput.value = '';
-        filterRecords();
-      }
-    }
-
-    categorySelect.addEventListener('change', (e) => {
-      updateSectionDisplay(e.target.value);
+    btnCancel?.addEventListener('click', () => {
+      backdrop.style.display = 'none';
+      backdrop.setAttribute('aria-hidden', 'true');
+      successMsg.style.display = 'none';
     });
 
-    if (window.location.hash) {
-      updateSectionDisplay(window.location.hash);
-      categorySelect.value = window.location.hash;
-    } else {
-      updateSectionDisplay(categorySelect.value);
-    }
+    // Exemple d’assemblage d’email (adapté à ton implémentation existante)
+    btnSend?.addEventListener('click', () => {
+      const io = document.getElementById('category-io').value;
+      const gender = document.getElementById('gender').value;
+      const event = document.getElementById('event').value;
+      const athlete = document.getElementById('athlete').value;
+      const year = document.getElementById('year').value;
+      const result = document.getElementById('result').value;
+      const place = document.getElementById('place').value;
+      const comment = document.getElementById('comment').value;
 
-    loadRecords();
+      const subject = encodeURIComponent(`Record ${io} - ${gender}`);
+      const body = encodeURIComponent(
+        `Épreuve: ${event}\nNom Prénom: ${athlete}\nAnnée: ${year}\nRésultat: ${result}\nLieu: ${place}\nCommentaire: ${comment}`
+      );
+      window.location.href = `mailto:laurentduthoo@gmail.com?subject=${subject}&body=${body}`;
 
-
-    // 4. Logique de la modale et du feedback (inchangée)
-    const modalRoot = document.getElementById('modal-root');
-    const form = document.getElementById('report-form');
-    const cancelBtn = document.getElementById('btn-cancel');
-    const categoryInput = document.getElementById('form-category');
-    const successMessage = document.querySelector('.success-message');
-    const successCloseBtn = document.getElementById('btn-success-close');
-    const globalReportBtn = document.getElementById('btn-report-global');
-
-    /** Ferme la modale et réinitialise les états de formulaire/succès */
-    function closeModal() {
-      modalRoot.style.display = 'none';
-      modalRoot.setAttribute('aria-hidden', 'true');
-      form.reset();
-
-      // Réinitialise l'affichage : montre le formulaire et cache le message de succès
-      form.style.display = 'block';
-      successMessage.style.display = 'none';
-    }
-
-    // Ouverture via le bouton global
-    globalReportBtn.addEventListener('click', () => {
-      const activeSection = document.querySelector('.active-section');
-      if (!activeSection) return;
-
-      const targetId = activeSection.id;
-
-      categoryInput.value = targetId;
-
-      // Préremplir le champ Indoor/Outdoor (basé sur l'ID de la section)
-      document.getElementById('type').value = targetId.includes('_outdoor') ? 'outdoor' : 'indoor';
-
-      modalRoot.style.display = 'flex';
-      modalRoot.setAttribute('aria-hidden', 'false');
-      document.getElementById('epreuve').focus();
-    });
-
-    cancelBtn.addEventListener('click', closeModal);
-    successCloseBtn.addEventListener('click', closeModal);
-    modalRoot.addEventListener('click', (e) => {
-      if (e.target === modalRoot) closeModal();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-    });
-
-    // Envoi du formulaire par mailto: (avec CC : secretariat.rusta@gmail.com)
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const formData = new FormData(form);
-      const payload = Object.fromEntries(formData.entries());
-      const to = 'laurentduthoo@gmail.com';
-      //const cc = 'secretariat.rusta@gmail.com';
-      const subject = encodeURIComponent(`Signalement record - ${payload.category || 'unknown'}`);
-      const bodyLines = [
-        `Catégorie: ${payload.category || ''}`,
-        `Type: ${payload.type || ''}`,
-        `Genre: ${payload.gender || ''}`,
-        `Épreuve: ${payload.epreuve || ''}`,
-        `Nom Prénom: ${payload.nom || ''}`,
-        `Résultat: ${payload.resultat || ''}`,
-        `Année: ${payload.annee || ''}`,
-        `Commentaire: ${payload.comment || ''}`,
-        ``,
-        `-- Envoyé depuis le site RUSTA`
-      ];
-      const body = encodeURIComponent(bodyLines.join('\n'));
-
-      const mailto = `mailto:${to}?cc=${cc}&subject=${subject}&body=${body}`;
-
-      window.location.href = mailto;
-
-      form.style.display = 'none';
-      successMessage.style.display = 'block';
+      successMsg.style.display = 'block';
     });
   </script>
 </body>
-
 </html>
