@@ -1,3 +1,5 @@
+
+/* 
 /* Variables de couleur globales améliorées pour la cohérence */
 :root {
   /* Définition des couleurs principales */
@@ -12,16 +14,13 @@
   --shadow: 0 4px 12px rgba(16, 24, 40, 0.05);
   /* Ombre douce pour les sections */
 }
-
 * {
   box-sizing: border-box;
 }
-
 html {
   /* Assure un défilement doux (scroll-behavior: smooth) */
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -31,7 +30,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-webkit-font-smoothing: grayscale;
 }
-
 header {
   /* Bande supérieure fixe avec le titre et le menu */
   background: var(--primary);
@@ -45,26 +43,22 @@ header {
   top: 0;
   z-index: 30;
 }
-
 .title {
   font-size: 1.25rem;
   font-weight: 800;
 }
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles pour le menu déroulant de navigation */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 nav {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-
 nav label {
   font-weight: 600;
   white-space: nowrap;
 }
-
 #category-select {
   /* Style du menu déroulant (plus propre) */
   background: var(--white);
@@ -75,7 +69,6 @@ nav label {
   font-weight: 600;
   cursor: pointer;
   font-size: 0.95rem;
-
   /* Styles pour personnaliser l'apparence par défaut */
   appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath fill='%231e3a8a' d='M5.5 8l4.5 4.5L14.5 8z'/%3E%3C/svg%3E");
@@ -84,24 +77,19 @@ nav label {
   padding-right: 30px;
   transition: border-color 0.2s;
 }
-
 #category-select:hover {
   border-color: var(--primary);
 }
-
-/* ----------------------------------------------- */
-
-
+/* -------------------------------------------------------- */
 main {
   /* Zone principale centrée et maximisée */
   padding: 28px 20px;
   max-width: 1400px;
   margin: 0 auto;
 }
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles pour la recherche et l'état vide */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 .search-container {
   background: var(--white);
   padding: 20px 25px;
@@ -112,7 +100,6 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-
 .search-container label {
   margin-bottom: 8px;
   font-size: 1rem;
@@ -120,12 +107,10 @@ main {
   display: block;
   /* S'assurer que le label prend sa propre ligne */
 }
-
 /* Style pour le nom de la catégorie dans le label de recherche */
 #current-category-name {
   font-weight: 700;
 }
-
 /* Nouveau conteneur pour l'input et la croix */
 .search-input-wrapper {
   position: relative;
@@ -133,7 +118,6 @@ main {
   display: flex;
   align-items: center;
 }
-
 #search-input {
   /* Style du champ de recherche */
   width: 100%;
@@ -145,20 +129,17 @@ main {
   font-size: 1rem;
   transition: border-color 0.2s;
 }
-
 #search-input:focus {
   border-color: var(--primary);
   outline: none;
   box-shadow: 0 0 0 2px rgba(30, 58, 138, 0.2);
 }
-
 /* Style de la croix d'effacement */
 .clear-search-button {
   position: absolute;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);
-
   /* Styles visuels du bouton */
   background: none;
   border: none;
@@ -171,11 +152,9 @@ main {
   opacity: 0.7;
   transition: opacity 0.2s;
 }
-
 .clear-search-button:hover {
   opacity: 1;
 }
-
 /* Styles pour le bouton de signalement global */
 .report-button-container {
   text-align: center;
@@ -183,13 +162,11 @@ main {
   margin-bottom: 28px;
   /* Ajoute de l'espace avant la première section */
 }
-
 #btn-report-global {
   /* Style du bouton "Signaler un record" (réutilise form-button) */
   font-size: 1.1rem;
   padding: 12px 24px;
 }
-
 /* Message d'état (aucun résultat, aucun record, etc.) */
 .empty-state {
   text-align: center;
@@ -203,13 +180,10 @@ main {
   font-weight: 600;
   margin-top: 20px;
 }
-
-/* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles des SECTIONS */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 section {
   /* Bloc de contenu pour chaque catégorie */
   background: var(--white);
@@ -217,19 +191,16 @@ section {
   margin-bottom: 28px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-
   /* Masque par défaut et transition d'opacité (pour la navigation fluide en JS) */
   display: none;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-
 /* La classe ajoutée par JavaScript pour afficher la section courante */
 .active-section {
   display: block;
   opacity: 1;
 }
-
 h2 {
   /* Style des titres de section */
   margin-top: 0;
@@ -239,13 +210,10 @@ h2 {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-
-/* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles des TABLEAUX */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 table {
   /* Table des records (garçons/filles) */
   width: 100%;
@@ -253,7 +221,6 @@ table {
   margin-top: 12px;
   font-size: 0.9rem;
 }
-
 th,
 td {
   border: 1px solid var(--gray);
@@ -263,7 +230,6 @@ td {
   white-space: normal;
   font-size: 0.95rem;
 }
-
 th {
   /* Utilisation du primary foncé pour un contraste maximal sur l'en-tête */
   background-color: var(--primary);
@@ -272,12 +238,10 @@ th {
   font-size: 0.95rem;
   text-transform: uppercase;
 }
-
 tbody tr:nth-child(odd) {
   /* Rayures pour la lisibilité */
   background-color: #fbfcfe;
 }
-
 /* Style pour le surlignage des termes de recherche (BLEU CLAIR) */
 .highlight {
   background-color: #cce5ff;
@@ -285,7 +249,6 @@ tbody tr:nth-child(odd) {
   padding: 2px 0;
   border-radius: 3px;
 }
-
 .form-button {
   /* Style du bouton "Signaler un record" (classe générale) */
   margin-top: 12px;
@@ -299,17 +262,13 @@ tbody tr:nth-child(odd) {
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   font-size: 0.95rem;
 }
-
 .form-button:active {
   transform: translateY(1px);
 }
-
-/* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles du FOOTER */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 footer {
   background: var(--text);
   color: var(--gray);
@@ -318,29 +277,23 @@ footer {
   font-size: 0.85rem;
   margin-top: 40px;
 }
-
 footer a {
   color: var(--primary-light);
   text-decoration: none;
   transition: color 0.2s;
 }
-
 footer a:hover {
   color: var(--white);
 }
-
 .back-to-top {
   display: block;
   margin-top: 15px;
   font-weight: 600;
 }
-
-/* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 /* Styles de la MODALE et du FORMULAIRE */
-/* ----------------------------------------------- */
+/* -------------------------------------------------------- */
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -350,7 +303,6 @@ footer a:hover {
   background: rgba(2, 6, 23, 0.45);
   z-index: 200;
 }
-
 .modal {
   background: var(--white);
   padding: 25px;
@@ -359,29 +311,24 @@ footer a:hover {
   max-width: 520px;
   box-shadow: 0 10px 30px rgba(2, 6, 23, 0.2);
 }
-
 .modal h3 {
   margin-top: 0;
   color: var(--primary);
 }
-
 label {
   display: block;
   font-weight: 600;
   margin-bottom: 4px;
   font-size: 0.9rem;
 }
-
 .form-row {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
 }
-
 .form-row .col {
   flex: 1;
 }
-
 .input,
 textarea,
 select {
@@ -391,19 +338,16 @@ select {
   border-radius: 6px;
   font-size: 0.95rem;
 }
-
 textarea {
   min-height: 80px;
   resize: vertical;
 }
-
 .modal-actions {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
   margin-top: 15px;
 }
-
 .btn-secondary {
   background: #f3f4f6;
   color: var(--text);
@@ -412,43 +356,34 @@ textarea {
   border-radius: var(--border-radius);
   cursor: pointer;
 }
-
 /* Styles pour le message de succès */
 .success-message {
   text-align: center;
 }
-
 .success-message h4 {
   color: #16a34a;
   /* Vert succès */
   font-size: 1.5rem;
   margin-top: 0;
 }
-
 .success-message p {
   color: var(--text);
   line-height: 1.5;
 }
-
-/* ----------------------------------------------- */
-
-
+/* -------------------------------------------------------- */
 /* ================================================= */
 /* RÈGLES SPÉCIFIQUES POUR LES SMARTPHONES (< 768px) */
 /* ================================================= */
 @media (max-width: 768px) {
-
   header {
     /* L'en-tête devient une colonne sur mobile */
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 20px;
   }
-
   .title {
     margin-bottom: 15px;
   }
-
   nav {
     /* La navigation prend toute la largeur */
     width: 100%;
@@ -456,19 +391,16 @@ textarea {
     align-items: flex-start;
     gap: 8px;
   }
-
   #category-select {
     width: 100%;
     /* Le menu déroulant prend toute la largeur */
     padding: 10px 12px;
   }
-
   /* TABLEAU MOBILE : Défilement horizontal pour ne pas couper les colonnes */
   table {
     display: block;
     overflow-x: auto;
   }
-
   /* Ajout du fondu sur le côté droit pour indiquer le défilement */
   /* On utilise le max-width pour éviter d'appliquer cette règle sur les grands écrans */
   @media (max-width: 1400px) {
@@ -477,8 +409,6 @@ textarea {
       mask-image: linear-gradient(to right, black 95%, transparent);
     }
   }
-
-
   /* Pour les cellules, nous permettons l'enveloppement du texte à nouveau */
   th,
   td {
@@ -488,63 +418,84 @@ textarea {
     padding: 8px;
     font-size: 0.8rem;
   }
-
   section {
     padding: 15px;
   }
-
   h2 {
     font-size: 1.2rem;
   }
-
   /* Formulaire modal sur mobile devient une colonne */
   .form-row {
     flex-direction: column;
   }
-
   /* Ajustement pour le bouton global sur mobile */
   #btn-report-global {
     width: 100%;
     font-size: 1rem;
     padding: 12px 10px;
   }
-  
   /* ⬇️ CORRECTION POUR LE FORMULAIRE MODAL (RÉVISION) ⬇️ */
-  
   /* 1. Aligne en haut et permet le défilement */
   .modal-backdrop {
     align-items: flex-start; /* Aligne le modal en haut de l'écran */
     padding-top: 10px;       /* Réduit la marge en haut pour maximiser l'espace */
   }
-
   .modal {
-    max-height: 98vh;        /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
-    padding: 15px;           /* Réduit le padding interne du modal de 25px à 15px */
-    overflow-y: auto;        /* Assure que le contenu est défilable */
+    max-height: 98vh; /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
+    padding: 15px;    /* Réduit le padding interne du modal de 25px à 15px */
+    overflow-y: auto; /* Assure que le contenu est défilable */
   }
-
   /* 2. Diminue la taille des éléments internes du formulaire */
   .modal h3 {
     font-size: 1.3rem;
   }
-  
   .form-row {
     margin-bottom: 10px; /* Réduit la marge verticale entre les lignes de 15px à 10px */
-    gap: 8px; /* Réduit l'espace entre les colonnes */
+    gap: 8px;            /* Réduit l'espace entre les colonnes */
   }
-
   label {
-    font-size: 0.85rem; /* Réduit la police des labels pour gagner de la hauteur */
+    font-size: 0.85rem;  /* Réduit la police des labels pour gagner de la hauteur */
   }
-
   .input,
   textarea,
   select {
-    padding: 8px; /* Réduit le padding des champs de saisie de 10px à 8px */
-    font-size: 0.9rem; /* Réduit la police des champs */
+    padding: 8px;        /* Réduit le padding des champs de saisie de 10px à 8px */
+    font-size: 0.9rem;   /* Réduit la police des champs */
   }
-
   .modal-actions {
-    margin-top: 10px; /* Réduit la marge au-dessus des boutons */
+    margin-top: 10px;    /* Réduit la marge au-dessus des boutons */
   }
+}
+
+/* ===================================================================== */
+/* ================== AJOUT : EN-TÊTES GARÇONS / FILLES ================= */
+/* ===================================================================== */
+
+/* Première ligne d'en-tête (les deux blocs Garçons/Filles) */
+table tr:first-child th:first-child {
+  background-color: #1e3a8a; /* bleu */
+  color: #fff;
+}
+table tr:first-child th:last-child {
+  background-color: #16a34a; /* vert */
+  color: #fff;
+}
+
+/* Deuxième ligne d'en-tête :
+   - Colonnes 1 à 4 : Garçons
+   - Colonnes 5 à 8 : Filles
+*/
+table tr:nth-child(2) th:nth-child(-n + 4) {
+  background-color: #1e3a8a; /* bleu */
+  color: #fff;
+}
+table tr:nth-child(2) th:nth-child(n + 5) {
+  background-color: #16a34a; /* vert */
+  color: #fff;
+}
+
+/* Optionnel : bordures légèrement visibles sur les en-têtes pour garder le relief */
+table tr:first-child th,
+table tr:nth-child(2) th {
+  border-color: rgba(255, 255, 255, 0.3);
 }
