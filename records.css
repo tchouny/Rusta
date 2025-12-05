@@ -499,3 +499,42 @@ table tr:first-child th,
 table tr:nth-child(2) th {
   border-color: rgba(255, 255, 255, 0.3);
 }
+
+
+/* === Pourtour coloré par groupe (Garçons = bleu, Filles = vert) === */
+
+/* 0) Assurer des bordures nettes */
+table {
+  border-collapse: collapse; /* On garde collapse pour un rendu compact */
+}
+
+/* 1) Traits de pourtour (épais) des deux groupes */
+/* Garçons : bordure gauche sur col.1 et bordure droite sur col.4 */
+table tr > *:nth-child(1) { border-left: 3px solid #1e3a8a; } /* BLEU */
+table tr > *:nth-child(4) { border-right: 3px solid #1e3a8a; } /* BLEU */
+
+/* Filles : bordure gauche sur col.5 et bordure droite sur col.8 */
+table tr > *:nth-child(5) { border-left: 3px solid #16a34a; } /* VERT */
+table tr > *:nth-child(8) { border-right: 3px solid #16a34a; } /* VERT */
+
+/* 2) Colorer les petites bordures verticales internes du groupe
+   - Garçons : colonnes 1 à 4 → verticales bleues
+   - Filles  : colonnes 5 à 8 → verticales vertes
+   (On laisse top/bottom en couleur par défaut pour ne rien casser du design) */
+table tr > *:nth-child(-n + 4) {
+  border-left-color: #1e3a8a;  /* BLEU */
+  border-right-color: #1e3a8a; /* BLEU */
+}
+table tr > *:nth-child(n + 5) {
+  border-left-color: #16a34a;  /* VERT */
+  border-right-color: #16a34a; /* VERT */
+}
+
+/* 3) Optionnel : adoucir la jonction centrale
+   (évite un ‘double trait’ trop marqué entre col.4 et col.5)
+   -> Si tu trouves la séparation trop épaisse, décommente l’un des deux : */
+/*
+table tr > *:nth-child(4) { border-right-width: 2px; }
+table tr > *:nth-child(5) { border-left-width: 2px; }
+*/
+
