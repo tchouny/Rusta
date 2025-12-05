@@ -5,7 +5,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RUSTA - Records du club</title>
-  <link rel="stylesheet" href="<header id="top">
+  records.css
+</head>
+<body>
+  <header id="top">
     <div class="title">RUSTA - Records du club</div>
     <nav>
       <label for="category-select">Choisissez une catégorie :</label>
@@ -31,6 +34,7 @@
   </header>
 
   <main>
+    <!-- Recherche -->
     <div class="search-container">
       <label for="search-input">Rechercher dans la catégorie : <span id="current-category-name">Benjamin(e)s - Indoor</span></label>
       <div class="search-input-wrapper">
@@ -39,11 +43,12 @@
       </div>
     </div>
 
+    <!-- Bouton “Signaler un record” -->
     <div class="report-button-container">
       <button id="btn-report-global" class="form-button">Signaler un record pour cette catégorie</button>
     </div>
 
-    <!-- ====== Extrait d’une section (la structure se répète pour chaque catégorie) ====== -->
+    <!-- ====== Exemple de section (la structure se répète pour chaque catégorie) ====== -->
     <section id="benjamins-indoor" class="active-section">
       <h2>Records Benjamin(e)s - Indoor</h2>
 
@@ -62,14 +67,14 @@
           <th>Résultat</th>
           <th>Année</th>
         </tr>
-        <!-- lignes de données (exemple) -->
+        <!-- … lignes de données … -->
       </table>
 
       <div class="empty-state">❌ Aucun record ne correspond à votre recherche dans cette catégorie.</div>
     </section>
 
-    <!-- (Les autres sections similaires sont présentes de la même manière) -->
-    <!-- ... -->
+    <!-- (Autres sections similaires) -->
+    <!-- … -->
 
     <!-- ========================= MODALE SIGNALER UN RECORD ========================= -->
     <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
@@ -96,7 +101,7 @@
 
         <!-- Épreuve -->
         <label for="event">Épreuve</label>
-        <input id="event" name="event" class="input" type="text" placeholder="ex: 60m, 1000m, Hauteur..." />
+        <input id="event" name="event" class="input" type="text" placeholder="ex: 60m, 1000m, Hauteur…" />
 
         <!-- Ligne 2 : Nom + Année -->
         <div class="form-row">
@@ -110,7 +115,7 @@
           </div>
         </div>
 
-        <!-- *** LIGNE MODIFIÉE : Résultat (réduit) + Lieu (ajouté) *** -->
+        <!-- ✅ LIGNE MODIFIÉE : Résultat (réduit) + Lieu (ajouté) -->
         <div class="form-row">
           <div class="col col-2">
             <label for="result">Résultat</label>
@@ -124,7 +129,7 @@
 
         <!-- Commentaire -->
         <label for="comment">Commentaire (optionnel)</label>
-        <textarea id="comment" name="comment" class="input" placeholder="Précisions utiles..."></textarea>
+        <textarea id="comment" name="comment" class="input" placeholder="Précisions utiles…"></textarea>
 
         <div class="modal-actions">
           <button class="btn-secondary" id="btn-cancel">Annuler</button>
@@ -145,11 +150,11 @@
     © 2025 RUSTA. Tous droits réservés. <br />
     mailto:laurentduthoo@gmail.comContact</a> <br />
     Mise à jour: 04 décembre 2025
-    <a class="back-to-top" href="#ooter>
+    #topRetour en haut ↑</a>
+  </footer>
 
-  <!-- ====== JS (optionnel) : gestion modale & envoi mail ====== -->
+  <!-- JS : exemple simple de gestion modale & mailto -->
   <script>
-    // Ouverture / fermeture de la modale
     const backdrop = document.getElementById('modal-backdrop');
     const btnReport = document.getElementById('btn-report-global');
     const btnCancel = document.getElementById('btn-cancel');
@@ -167,7 +172,6 @@
       successMsg.style.display = 'none';
     });
 
-    // Exemple d’assemblage d’email (adapté à ton implémentation existante)
     btnSend?.addEventListener('click', () => {
       const io = document.getElementById('category-io').value;
       const gender = document.getElementById('gender').value;
