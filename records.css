@@ -15,17 +15,24 @@
   /* Couleur de séparation des genres (Gris moyen) */
 
   /* NOUVELLES COULEURS POUR LA SECTION FILLES (Vert) */
-  --girls-header-color: #14532d;   /* Vert foncé pour le header */
-  --girls-bg-color-odd: #e0f6e9;   /* Vert clair moyen pour les lignes impaires */
-  --girls-bg-color-even: #f0fff4;  /* Vert très pâle pour les lignes paires */
+  --girls-header-color: #14532d;
+  /* Vert foncé pour le header */
+  --girls-bg-color-odd: #e0f6e9;
+  /* Vert clair moyen pour les lignes impaires */
+  --girls-bg-color-even: #f0fff4;
+  /* Vert très pâle pour les lignes paires */
 
   /* NOUVELLES COULEURS POUR LA SECTION GARÇONS (Bleu/Blanc) - Pour un effet zébré */
-  --boys-bg-color-odd: #e8f4ff;    /* Bleu très pâle pour les lignes impaires */
-  --boys-bg-color-even: #fbfcfe;   /* Bleu/Blanc encore plus clair pour les lignes paires */
+  --boys-bg-color-odd: #e8f4ff;
+  /* Bleu très pâle pour les lignes impaires */
+  --boys-bg-color-even: #fbfcfe;
+  /* Bleu/Blanc encore plus clair pour les lignes paires */
 
   /* NOUVELLES COULEURS DE BORDURE */
-  --boys-border-color: #60a5fa;    /* Bleu clair pour les bordures Garçons */
-  --girls-border-color: #34d399;   /* Vert clair pour les bordures Filles */
+  --boys-border-color: #60a5fa;
+  /* Bleu clair pour les bordures Garçons */
+  --girls-border-color: #34d399;
+  /* Vert clair pour les bordures Filles */
 }
 
 * {
@@ -81,7 +88,6 @@ nav label {
 }
 
 #category-select {
-  /* Style du menu déroulant (plus propre) */
   background: var(--white);
   color: var(--primary);
   border: 1px solid var(--primary-light);
@@ -104,8 +110,7 @@ nav label {
   border-color: var(--primary);
 }
 
-/* ----------------------------------------------- */
-
+/* MAIN part */
 
 main {
   /* Zone principale centrée et maximisée */
@@ -220,11 +225,9 @@ main {
 }
 
 /* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
 /* Styles des SECTIONS */
 /* ----------------------------------------------- */
+
 section {
   /* Bloc de contenu pour chaque catégorie */
   background: var(--white);
@@ -256,11 +259,9 @@ h2 {
 }
 
 /* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
 /* Styles des TABLEAUX */
 /* ----------------------------------------------- */
+
 table {
   /* Table des records (garçons/filles) */
   width: 100%;
@@ -306,9 +307,6 @@ th {
   text-transform: uppercase;
 }
 
-
-/* NOUVELLES RÈGLES POUR LA COULEUR DES FILLES ET LES RAYURES */
-
 /* COULEURS DU HEADER FILLES */
 
 /* Header Filles (Ligne 1 - Cellule colspan="4") */
@@ -320,7 +318,6 @@ table thead tr:first-child th:nth-child(2) {
 table thead tr:nth-child(2) th:nth-child(n+5) {
   background-color: var(--girls-header-color);
 }
-
 
 /* COULEURS DU CORPS DU TABLEAU (tbody) pour les rayures Garçons/Filles */
 
@@ -343,7 +340,6 @@ tbody tr:nth-child(even) td:nth-child(n+5) {
 tbody tr:nth-child(odd) td:nth-child(n+5) {
   background-color: var(--girls-bg-color-odd);
 }
-
 
 /* RÈGLES DE SÉPARATION GRISÉE ET ÉPAISSE (Garçons/Filles) - Priorité sur la bordure bleue/verte */
 
@@ -383,6 +379,8 @@ tbody tr td:nth-child(4) {
   cursor: pointer;
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   font-size: 0.95rem;
+  line-height: 1.2;
+  min-height: 40px; /* AJOUTÉ POUR CONSISTANCE */
 }
 
 .form-button:active {
@@ -390,11 +388,9 @@ tbody tr td:nth-child(4) {
 }
 
 /* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
 /* Styles du FOOTER */
 /* ----------------------------------------------- */
+
 footer {
   background: var(--text);
   color: var(--gray);
@@ -421,11 +417,9 @@ footer a:hover {
 }
 
 /* ----------------------------------------------- */
-
-
-/* ----------------------------------------------- */
 /* Styles de la MODALE et du FORMULAIRE */
 /* ----------------------------------------------- */
+
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -489,15 +483,6 @@ textarea {
   margin-top: 15px;
 }
 
-.btn-secondary {
-  background: #f3f4f6;
-  color: var(--text);
-  border: none;
-  padding: 9px 12px;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-}
-
 /* Styles pour le message de succès */
 .success-message {
   text-align: center;
@@ -515,12 +500,10 @@ textarea {
   line-height: 1.5;
 }
 
-/* ----------------------------------------------- */
-
-
 /* ================================================= */
 /* RÈGLES SPÉCIFIQUES POUR LES SMARTPHONES (< 768px) */
 /* ================================================= */
+
 @media (max-width: 768px) {
 
   header {
@@ -562,7 +545,6 @@ textarea {
       mask-image: linear-gradient(to right, black 95%, transparent);
     }
   }
-
 
   /* Pour les cellules, nous permettons l'enveloppement du texte à nouveau */
   th,
