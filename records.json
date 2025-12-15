@@ -230,7 +230,7 @@
     { "epreuve": "Longueur", "nom": "ATSAKENA NKONO Margot", "resultat": "5m55", "annee": "2022" },
     { "epreuve": "Triple saut", "nom": "DISY Audrey", "resultat": "10m55", "annee":null  },
     { "epreuve": "Perche", "nom": "FRANCOIS Margot", "resultat": "2m10", "annee": "2003" },
-    { "epreuve": "Poids", "nom": "TRUANT Olivia", "resultat": "10m61", "annee": "2025" },
+    { "epreuve": "Poids", "nom": "VERHELST Lola", "resultat": "10m72", "annee": "2025" },
     { "epreuve": "Triathlon", "nom": "DELAUNOY Camille", "resultat": "1224pts", "annee": "2013" },
     { "epreuve": "Pentathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "3233pts", "annee": "2014" }
   ]
@@ -249,6 +249,7 @@
   { "epreuve": "1500m", "nom": "BATAILLE Laurent", "resultat": "4'12\"21", "annee":null },
   { "epreuve": "80H", "nom": "DUFOUR Christian", "resultat": "14\"2", "annee":null },
   { "epreuve": "100H (91cm)", "nom": "TORDOIR Xavier", "resultat": "14\"50", "annee":null },
+  { "epreuve": "100H (83cm)", "nom": "WIBAUT Mathias", "resultat": "14\"40", "annee":"2024" },
   { "epreuve": "300H (76cm)", "nom": "VASSEUR David", "resultat": "40\"59", "annee":null },
   { "epreuve": "1500m St.", "nom": "DENAYS Louis", "resultat": "5'21\"75", "annee": "2011"},
   { "epreuve": "4x80m", "nom": "VLAMINCK, FRANCOIS, PROCUREUR, ABSIL", "resultat": "37\"6", "annee":null },
@@ -335,7 +336,7 @@
       { "epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "6m06", "annee": 1989 },
       { "epreuve": "Triple saut", "nom": "DISY Audrey", "resultat": "10m26", "annee": null },
       { "epreuve": "Perche", "nom": "HAULET Victoria", "resultat": "2m55", "annee": 2023 },
-      { "epreuve": "Poids", "nom": "CARBONNELLE Stéphanie", "resultat": "10m40", "annee": 2015 },
+      { "epreuve": "Poids", "nom": "TRUANT Olivia", "resultat": "11m38", "annee": 2025 },
       { "epreuve": "Pentathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "3414pts", "annee": 2015 }
     ]
   },
@@ -762,4 +763,5 @@
       {"epreuve":"Heptathlon","nom":"VANHAMME Caroline","resultat":"5082pts","annee":2023}
     ]
   }
+
 }
