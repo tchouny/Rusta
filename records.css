@@ -264,7 +264,7 @@ h2 {
 
 table {
   /* Table des records (garçons/filles) */
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 12px;
   font-size: 0.9rem;
