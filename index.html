@@ -683,7 +683,7 @@
       <div class="success-message" style="display: none;">
         <h4>✅ Envoi du record initié !</h4>
         <p>Veuillez finaliser l'envoi en cliquant sur **"Envoyer"** dans la nouvelle fenêtre de votre logiciel de
-          messagerie (Outlook, Thunderbird, Mail, etc.).</p>
+          messagerie (Outlook, Gmail, Mail, etc.).</p>
         <p>Merci pour votre contribution !</p>
         <div class="modal-actions">
           <button class="form-button" id="btn-success-close" type="button">Fermer</button>
@@ -708,10 +708,10 @@
           </div>
           <div class="col">
             <label for="gender">
-              Gar&ccedil;ons/Filles
+              Garçons/Filles
             </label>
             <select class="input" id="gender" name="gender">
-              <option value="garcons">
+              <option value="garçons">
                 Gar&ccedil;ons
               </option>
               <option value="filles">
@@ -722,20 +722,20 @@
         </div>
         <div>
           <label for="epreuve">
-            &Eacute;preuve
+            Epreuve
           </label>
           <input class="input" id="epreuve" name="epreuve" required="" />
         </div>
         <div class="form-row">
           <div class="col">
             <label for="nom">
-              Nom Pr&eacute;nom
+              Nom Prénom
             </label>
             <input class="input" id="nom" name="nom" required="" />
           </div>
           <div class="col">
             <label for="annee">
-              Ann&eacute;e de la perf.
+              Année de la perf.
             </label>
             <input class="input" id="annee" inputmode="numeric" name="annee" pattern="\d{4}" placeholder="YYYY" required=""/>
           </div>
@@ -765,7 +765,7 @@
             Annuler
           </button>
           <button class="form-button" type="submit">
-            Envoyer par e mail
+            Envoyer par email
           </button>
         </div>
       </form>
@@ -1018,7 +1018,7 @@
         `Année: ${payload.annee || ''}`,
         `Commentaire: ${payload.comment || ''}`,
         ``,
-        `-- Envoyé depuis le site RUSTA`
+        `-- Envoyé depuis le site RUSTA --`
       ];
       const body = encodeURIComponent(bodyLines.join('\n'));
 
