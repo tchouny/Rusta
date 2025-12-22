@@ -532,7 +532,7 @@
     "garcons": [
       {"epreuve":"60m","nom":"DELZENNE David","resultat":"6\"94","annee":2006},
       {"epreuve":"200m","nom":"CALLENS Emmanuel","resultat":"21\"80","annee":1997},
-      {"epreuve":"300m","nom":"RENARD Alexis","resultat":"36\"17","annee":2019},
+      {"epreuve":"300m","nom":"RENARD Alexis","resultat":"36\"17","annee":2024},
       {"epreuve":"400m","nom":"CALLENS Emmanuel","resultat":"49\"43","annee":null},
       {"epreuve":"800m","nom":"VANDENBERGHE Marc-Henri","resultat":"1'55\"79","annee":2025},
       {"epreuve":"1000m","nom":"GETS Florent","resultat":"2'47\"85","annee":2011},
@@ -649,7 +649,7 @@
     "garcons": [
       {"epreuve":"60m","nom":"DELZENNE David","resultat":"6\"94","annee":2006},
       {"epreuve":"200m","nom":"CALLENS Emmanuel","resultat":"21\"80","annee":1997},
-      {"epreuve":"300m","nom":"OUABI Abdelhak","resultat":"36\"49","annee":2019},
+      {"epreuve":"300m","nom":"Renard Alexis","resultat":"36\"17","annee":2024},
       {"epreuve":"400m","nom":"CALLENS Emmanuel","resultat":"49\"43","annee":null},
       {"epreuve":"800m","nom":"VANDENBERGHE Marc-Henri","resultat":"1'55\"79","annee":2025},
       {"epreuve":"1000m","nom":"NUTTENS Cyrille","resultat":"2'43\"40","annee":2012},
