@@ -49,10 +49,10 @@
       {"epreuve": "3000m", "nom": "LEVANT Bruno", "resultat": "8'59\"42", "annee": 2001},
       {"epreuve": "5000m", "nom": "DERAM Steven", "resultat": "15'41\"72", "annee": null},
       {"epreuve": "10000m", "nom": "DERAM Steven", "resultat": "32'45\"77", "annee": null},
-      {"epreuve": "20km", "nom": "DERAM Steven", "resultat": "1h08'04\"", "annee": null},
+      {"epreuve": "20km", "nom": "DERAM Steven", "resultat": "1h08'04", "annee": null},
       {"epreuve": "Heure", "nom": "DERAM Steven", "resultat": "17km684", "annee": null},
       {"epreuve": "Semi-marathon", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "Marathon", "nom": "DERAM Steven", "resultat": "2h31'29\"", "annee": null},
+      {"epreuve": "Marathon", "nom": "DERAM Steven", "resultat": "2h31'29", "annee": null},
       {"epreuve": "110H (0.99m)", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400H (0.91m)", "nom": "LAUS Joachim", "resultat": "1'03\"69", "annee": 2022},
       {"epreuve": "Hauteur", "nom": "DE GEYTER Olivier", "resultat": "1m63", "annee": 2010},
@@ -113,7 +113,7 @@
       {"epreuve": "Triple saut", "nom": "FONTAINE Pascal", "resultat": "10m23", "annee": 2004},
       {"epreuve": "Perche", "nom": "BACART Georges", "resultat": "2m", "annee": 2004},
       {"epreuve": "Poids (7.26kg)", "nom": "DE GEYTER Olivier", "resultat": "13m66", "annee": 2016},
-      {"epreuve": "Triathlon", "nom": "DE TEMMERMAN Michael", "resultat": "953pts", "annee": 2019},
+      {"epreuve": "Triathlon", "nom": "DEPRIESTER Aurelien", "resultat": "1392pts", "annee": 2025},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "dames": [
@@ -227,7 +227,8 @@
       {"epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "5m14", "annee": 2020},
       {"epreuve": "Triple saut", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Perche", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "Poids (4kg)", "nom": "HENNART Sandrine, FRANCQ Anne-Marie", "resultat": "7m65", "annee": "2018, 2022"},
+      {"epreuve": "Poids (4kg)", "nom": "HENNART Sandrine", "resultat": "7m65", "annee": "2018"},
+      {"epreuve": "Poids (4kg)", "nom": "FRANCQ Anne-Marie", "resultat": "7m65", "annee": "2022"},
       {"epreuve": "Triathlon", "nom": "HENNART Sandrine", "resultat": "1582pts", "annee": 2018},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ]
@@ -334,7 +335,7 @@
       {"epreuve": "1500m", "nom": "VANHAEBOST Georges", "resultat": "4'45\"01", "annee": 2014},
       {"epreuve": "Mile", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "2000m", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "3000m", "nom": "TRIFIN Ivan", "resultat": "10'48\"33", "annee": 2023},
+      {"epreuve": "3000m", "nom": "TRIFIN Ivan", "resultat": "10'32\"78", "annee": 2025},
       {"epreuve": "5000m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "10000m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "100H (0.91m)", "nom": "BACART Georges", "resultat": "21\"48", "annee": 2013},
