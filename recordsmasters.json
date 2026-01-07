@@ -217,7 +217,7 @@
     "dames": [
       {"epreuve": "60m", "nom": "HENNART Sandrine", "resultat": "8\"46", "annee": 2020},
       {"epreuve": "200m", "nom": "FRANCQ Anne-Marie", "resultat": "31\"45", "annee": 2023},
-      {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "300m", "nom": "FRANCQ Anne-Marie", "resultat": "54\"18", "annee": 2025},
       {"epreuve": "400m", "nom": "FRANCQ Anne-Marie", "resultat": "1'12\"33", "annee": 2023},
       {"epreuve": "800m", "nom": "DEBOURLE Rita", "resultat": "3'20\"51", "annee": 2023},
       {"epreuve": "1000m", "nom": null, "resultat": null, "annee": null},
