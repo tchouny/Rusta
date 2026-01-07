@@ -1,6 +1,6 @@
 {
   "M35_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "LEFEBVRE Sylvain", "resultat": "7\"24", "annee": 2018},
       {"epreuve": "200m", "nom": "CALLENS Emmanuel", "resultat": "23\"26", "annee": 2011},
       {"epreuve": "300m", "nom": "CALLENS Emmanuel", "resultat": "37\"77", "annee": 2011},
@@ -17,7 +17,7 @@
       {"epreuve": "Poids (7.26kg)", "nom": "DE GEYTER Olivier", "resultat": "13m45", "annee": 2010},
       {"epreuve": "Pentathlon", "nom": "LAUS Joachim", "resultat": "2702pts", "annee": 2020}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "PIEROUX Marianne", "resultat": "8\"33", "annee": 2025},
       {"epreuve": "200m", "nom": "PIEROUX Marianne", "resultat": "28\"73", "annee": 2025},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -36,7 +36,7 @@
     ]
   },
   "M35_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "LEFEBVRE Sylvain", "resultat": "11\"30", "annee": 2016},
       {"epreuve": "200m", "nom": "CALLENS Emmanuel", "resultat": "23\"13", "annee": 2011},
       {"epreuve": "300m", "nom": "LEFEBVRE Sylvain", "resultat": "37\"37", "annee": 2015},
@@ -67,7 +67,7 @@
       {"epreuve": "Pentathlon", "nom": "LAUS Joachim", "resultat": "2468pts", "annee": 2022},
       {"epreuve": "PentaLancers", "nom": "DE GEYTER Olivier", "resultat": "2577pts", "annee": 2010}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": "PIEROUX Marianne", "resultat": "13\"22", "annee": 2025},
       {"epreuve": "200m", "nom": "PIEROUX Marianne", "resultat": "28\"06", "annee": 2025},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -95,7 +95,7 @@
     ]
   },
   "M40_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "7\"48", "annee": 2004},
       {"epreuve": "60m", "nom": "FENAUX Ludovic", "resultat": "7\"48", "annee": 2024},
       {"epreuve": "200m", "nom": "FENAUX Ludovic", "resultat": "24\"30", "annee": 2025},
@@ -116,7 +116,7 @@
       {"epreuve": "Triathlon", "nom": "DEPRIESTER Aurelien", "resultat": "1392pts", "annee": 2025},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "FRANCQ Anne-Marie", "resultat": "9\"49", "annee": 2020},
       {"epreuve": "200m", "nom": "FRANCQ Anne-Marie", "resultat": "33\"25", "annee": 2020},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -135,7 +135,7 @@
     ]
   },
   "M40_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "LEFEBVRE Sylvain", "resultat": "11\"60", "annee": 2020},
       {"epreuve": "200m", "nom": "FONTAINE Pascal", "resultat": "23\"85", "annee": 2004},
       {"epreuve": "300m", "nom": "LEFEBVRE Sylvain", "resultat": "39\"30", "annee": 2022},
@@ -166,7 +166,7 @@
       {"epreuve": "PentaLancers", "nom": "DE GEYTER Olivier", "resultat": "2903pts", "annee": 2015},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": "HENNART Sandrine", "resultat": "13\"84", "annee": 2015},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -194,7 +194,7 @@
     ]
   },
   "M45_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "7\"63", "annee": 2006},
       {"epreuve": "200m", "nom": "FONTAINE Pascal", "resultat": "25\"05", "annee": 2005},
       {"epreuve": "300m", "nom": "FONTAINE Pascal", "resultat": "41\"37", "annee": 2006},
@@ -214,7 +214,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "HENNART Sandrine", "resultat": "8\"46", "annee": 2020},
       {"epreuve": "200m", "nom": "FRANCQ Anne-Marie", "resultat": "31\"45", "annee": 2023},
       {"epreuve": "300m", "nom": "FRANCQ Anne-Marie", "resultat": "54\"18", "annee": 2025},
@@ -234,7 +234,7 @@
     ]
   },
   "M45_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "LEFEBVRE Sylvain", "resultat": "11\"71", "annee": 2025},
       {"epreuve": "200m", "nom": "LEFEBVRE Sylvain", "resultat": "24\"07", "annee": 2025},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -260,7 +260,7 @@
       {"epreuve": "PentaLancers", "nom": "DE GEYTER Olivier", "resultat": "3126pts", "annee": 2019},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": "HENNART Sandrine", "resultat": "13\"48", "annee": 2021},
       {"epreuve": "200m", "nom": "FRANCQ Anne-Marie", "resultat": "30\"97", "annee": 2023},
       {"epreuve": "300m", "nom": "FRANCQ Anne-Marie", "resultat": "52\"29", "annee": 2024},
@@ -288,7 +288,7 @@
     ]
   },
   "M50_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "CALLENS Emmanuel", "resultat": "7\"89", "annee": 2025},
       {"epreuve": "200m", "nom": "CALLENS Emmanuel", "resultat": "25\"75", "annee": 2025},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -306,7 +306,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "HENNART Sandrine", "resultat": "8\"10", "annee": 2024},
       {"epreuve": "200m", "nom": "DHANIS Christine", "resultat": "33\"80", "annee": 2018},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -325,7 +325,7 @@
     ]
   },
   "M50_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "12\"56", "annee": 2011},
       {"epreuve": "200m", "nom": "FONTAINE Pascal", "resultat": "25\"75", "annee": 2011},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -353,7 +353,7 @@
       {"epreuve": "PentaLancers", "nom": "DUTHOO Laurent", "resultat": "3425pts", "annee": 2022},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": "HENNART Sandrine", "resultat": "13\"00", "annee": 2024},
       {"epreuve": "200m", "nom": "DHANIS Christine", "resultat": "32\"28", "annee": 2017},
       {"epreuve": "300m", "nom": "DEBOURLE Rita", "resultat": "56\"64", "annee": 2024},
@@ -381,7 +381,7 @@
     ]
   },
   "M55_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "8\"19", "annee": 2018},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -399,7 +399,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "DHANIS Christine", "resultat": "9\"11", "annee": 2020},
       {"epreuve": "200m", "nom": "WILLEQUET Gilliane", "resultat": "37\"15", "annee": 2020},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -418,7 +418,7 @@
     ]
   },
   "M55_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "12\"87", "annee": 2016},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -446,7 +446,7 @@
       {"epreuve": "PentaLancers", "nom": "BACART Georges", "resultat": "2944pts", "annee": 2018},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": "DHANIS Christine", "resultat": "14\"31", "annee": 2022},
       {"epreuve": "200m", "nom": "DHANIS Christine", "resultat": "30\"44", "annee": 2022},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -476,7 +476,7 @@
     ]
   },
   "M60_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "8\"36", "annee": 2022},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -494,7 +494,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": "GRIGOLATO Martine", "resultat": "36\"82", "annee": 2018},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -513,7 +513,7 @@
     ]
   },
   "M60_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "13\"50", "annee": 2021},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -540,7 +540,7 @@
       {"epreuve": "PentaLancers", "nom": "LONGEVAL Fernand", "resultat": "3086pts", "annee": 2009},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -567,7 +567,7 @@
     ]
   },
   "M65_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": "COCU Jean-Luc", "resultat": "10\"96", "annee": 2019},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -585,7 +585,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -604,7 +604,7 @@
     ]
   },
   "M65_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -630,7 +630,7 @@
       {"epreuve": "PentaLancers", "nom": "LONGEVAL Fernand", "resultat": "3111pts", "annee": 2015},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -656,7 +656,7 @@
     ]
   },
   "M70_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -673,7 +673,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -692,7 +692,7 @@
     ]
   },
   "M70_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -716,7 +716,7 @@
       {"epreuve": "PentaLancers", "nom": "LONGEVAL Fernand", "resultat": "3301pts", "annee": 2018},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -741,7 +741,7 @@
     ]
   },
   "M75_indoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "60m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -758,7 +758,7 @@
       {"epreuve": "Triathlon", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "60m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -777,7 +777,7 @@
     ]
   },
   "M75_outdoor": {
-    "hommes": [
+    "garcons": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -802,7 +802,7 @@
       {"epreuve": "PentaLancers", "nom": "LONGEVAL Fernand", "resultat": "2880pts", "annee": 2023},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
-    "dames": [
+    "filles": [
       {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
