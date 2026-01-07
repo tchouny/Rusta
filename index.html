@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width,initial-scale=1" name="viewport" />
@@ -8,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet" />
   <link href="records.css" rel="stylesheet" />
 </head>
+
 <body id="top">
   <header>
     <div class="title">RUSTA - Records du club</div>
@@ -34,56 +36,73 @@
     </nav>
   </header>
 
- <div class="search-container">
-  <div class="search-header">
-    <label for="search-input" style="font-family: 'Inter', sans-serif; font-size: 14px; color: #1e3a8a; margin-bottom: 0;">
-      Rechercher dans la catégorie : <span id="current-category-name" style="font-weight: 800;"></span>
-    </label>
-
-    <a href="recherche.html" style="text-decoration: none; font-family: 'Inter', sans-serif; font-size: 14px; color: #1e3a8a; font-weight: 600;">
-      🔍 Faire une recherche globale (toutes catégories)
-    </a>
-  </div>
-
-  <div class="search-input-wrapper">
-    <input class="input" id="search-input" placeholder="Tapez un nom, une épreuve ou un résultat..." type="text" />
-    <button class="clear-search-button" id="clear-search-button" type="button" aria-label="Effacer la recherche" style="display: none;">
-      &times;
-    </button>
-  </div>
-</div>
-
-     <div class="report-button-container">
-      <button class="form-button" id="btn-report-global" type="button">Signaler un record pour cette catégorie</button>
+  <div class="search-container">
+    <div class="search-header">
+      <label for="search-input"
+        style="font-family: 'Inter', sans-serif; font-size: 14px; color: #1e3a8a; margin-bottom: 0;">
+        Rechercher dans la catégorie : <span id="current-category-name" style="font-weight: 800;"></span>
+      </label>
     </div>
 
-    <section id="main-records-section" class="active-section">
-      <h2 id="current-category-title">Chargement...</h2>
-      <table id="records-table">
-        <colgroup>
-          <col style="width:8%" /><col style="width:25%" /><col style="width:6%" /><col style="width:6%" />
-          <col style="width:8%" /><col style="width:25%" /><col style="width:6%" /><col style="width:6%" />
-        </colgroup>
-        <thead>
-          <tr>
-            <th colspan="4" scope="col">Garçons</th>
-            <th colspan="4" scope="col">Filles</th>
-          </tr>
-          <tr>
-            <th scope="col">Epreuve</th><th scope="col">Nom Prénom</th><th scope="col">Résultat</th><th scope="col">Année</th>
-            <th scope="col">Epreuve</th><th scope="col">Nom Prénom</th><th scope="col">Résultat</th><th scope="col">Année</th>
-          </tr>
-        </thead>
-        <tbody id="records-tbody"></tbody>
-      </table>
-      <p class="empty-state" id="empty-state-msg" style="display:none;">❌ Aucun record ne correspond à votre recherche dans cette catégorie.</p>
-    </section>
+    <div class="search-input-wrapper">
+      <input class="input" id="search-input" placeholder="Tapez un nom, une épreuve ou un résultat..." type="text" />
+      <button class="clear-search-button" id="clear-search-button" type="button" aria-label="Effacer la recherche"
+        style="display: none;">
+        &times;
+      </button>
+    </div>
+    <div>
+      <a href="recherche.html"
+        style="text-decoration: none; font-family: 'Inter', sans-serif; font-size: 10px; color: #1e3a8a; font-weight: 600;">
+        🔍 Faire une recherche globale (toutes catégories)
+      </a>
+    </div>
+  </div>
+
+  <div class="report-button-container">
+    <button class="form-button" id="btn-report-global" type="button">Signaler un record pour cette catégorie</button>
+  </div>
+
+  <section id="main-records-section" class="active-section">
+    <h2 id="current-category-title">Chargement...</h2>
+    <table id="records-table">
+      <colgroup>
+        <col style="width:8%" />
+        <col style="width:25%" />
+        <col style="width:6%" />
+        <col style="width:6%" />
+        <col style="width:8%" />
+        <col style="width:25%" />
+        <col style="width:6%" />
+        <col style="width:6%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="4" scope="col">Garçons</th>
+          <th colspan="4" scope="col">Filles</th>
+        </tr>
+        <tr>
+          <th scope="col">Epreuve</th>
+          <th scope="col">Nom Prénom</th>
+          <th scope="col">Résultat</th>
+          <th scope="col">Année</th>
+          <th scope="col">Epreuve</th>
+          <th scope="col">Nom Prénom</th>
+          <th scope="col">Résultat</th>
+          <th scope="col">Année</th>
+        </tr>
+      </thead>
+      <tbody id="records-tbody"></tbody>
+    </table>
+    <p class="empty-state" id="empty-state-msg" style="display:none;">❌ Aucun record ne correspond à votre recherche
+      dans cette catégorie.</p>
+  </section>
   </main>
 
   <footer>
     <p class="footer-text">
-      &copy; 2025 RUSTA. Tous droits réservés. | 
-      <a href="mailto:laurentduthoo@gmail.com">Contact</a> | 
+      &copy; 2025 RUSTA. Tous droits réservés. |
+      <a href="mailto:laurentduthoo@gmail.com">Contact</a> |
       Mise à jour: 22 décembre 2025
     </p>
     <a class="back-to-top" href="#top">Retour en haut &uarr;</a>
@@ -95,25 +114,34 @@
       <div class="success-message" style="display: none;">
         <h4>✅ Envoi du record initié !</h4>
         <p>Veuillez finaliser l'envoi en cliquant sur **"Envoyer"** dans votre logiciel de messagerie.</p>
-        <div class="modal-actions"><button class="form-button" id="btn-success-close" type="button">Fermer</button></div>
+        <div class="modal-actions"><button class="form-button" id="btn-success-close" type="button">Fermer</button>
+        </div>
       </div>
       <form id="report-form">
         <input id="form-category" name="category" type="hidden" value="" />
         <div class="form-row">
           <div class="col"><label for="type">Indoor/Outdoor</label>
-            <select class="input" id="type" name="type"><option value="indoor">Indoor</option><option value="outdoor">Outdoor</option></select>
+            <select class="input" id="type" name="type">
+              <option value="indoor">Indoor</option>
+              <option value="outdoor">Outdoor</option>
+            </select>
           </div>
           <div class="col"><label for="gender">Garçons/Filles</label>
-            <select class="input" id="gender" name="gender"><option value="garçons">Garçons</option><option value="filles">Filles</option></select>
+            <select class="input" id="gender" name="gender">
+              <option value="garçons">Garçons</option>
+              <option value="filles">Filles</option>
+            </select>
           </div>
         </div>
         <div><label for="epreuve">Epreuve</label><input class="input" id="epreuve" name="epreuve" required /></div>
         <div class="form-row">
           <div class="col"><label for="nom">Nom Prénom</label><input class="input" id="nom" name="nom" required /></div>
-          <div class="col"><label for="annee">Année</label><input class="input" id="annee" inputmode="numeric" name="annee" pattern="\d{4}" placeholder="YYYY" required /></div>
+          <div class="col"><label for="annee">Année</label><input class="input" id="annee" inputmode="numeric"
+              name="annee" pattern="\d{4}" placeholder="YYYY" required /></div>
         </div>
         <div class="form-row">
-          <div class="col"><label for="resultat">Résultat</label><input class="input" id="resultat" name="resultat" required /></div>
+          <div class="col"><label for="resultat">Résultat</label><input class="input" id="resultat" name="resultat"
+              required /></div>
           <div class="col"><label for="lieu">Lieu</label><input class="input" id="lieu" name="lieu" required /></div>
         </div>
         <div><label for="comment">Commentaire (optionnel)</label><textarea id="comment" name="comment"></textarea></div>
@@ -124,7 +152,8 @@
       </form>
     </div>
   </div>
-<script>window.DATA_SOURCE = 'records.json';</script>
+  <script>window.DATA_SOURCE = 'records.json';</script>
   <script src="records.js"></script>
 </body>
+
 </html>
