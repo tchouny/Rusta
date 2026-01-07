@@ -1021,7 +1021,7 @@
         ``,
         `-- Envoyé depuis le site RUSTA --`
       ];
-      const body = encodeURIComponent(bodyLines.join('\n'));
+      const body = encodeURIComponent(bodyLines.join('\r\n'));
 
       const mailto = `mailto:${to}?cc=${cc}&subject=${subject}&body=${body}`;
 
