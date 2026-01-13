@@ -74,40 +74,51 @@ header {
 }
 
 /* ----------------------------------------------- */
-/* Styles pour les boutons de la page index */
+/* Styles spécifique de la page index */
 /* ----------------------------------------------- */
 
-/* Conteneur pour aligner les boutons sans étirement */
-        .btn-container {
-            display: flex;
-            gap: 15px;
-            margin-top: 25px;
-            flex-wrap: wrap; 
-            justify-content: flex-start; /* Aligne les boutons à gauche */
-        }
+.H1index {
+  font-size: 1.75rem;
+  color: #003366;
+  /* Titre Bienvenue en BLEU */
+  border-bottom: 2px solid #D99058;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
 
-        /* Style des boutons de taille fixe identique */
-        .btn-ocre {
-            background-color: #D99058;
-            color: white;
-            padding: 15px 10px;
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            text-align: center;
-            transition: background-color 0.3s;
-            
-            /* Taille fixe identique pour les deux */
-            width: 250px; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-sizing: border-box; /* Garantit que le padding n'augmente pas la taille */
-        }
+.btn-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* Aligne les boutons à gauche */
+}
 
-        .btn-ocre:hover {
-            background-color: #B37042; /* Ocre plus foncé au survol */
-        }
+/* Style des boutons de taille fixe identique */
+.btn-ocre {
+  background-color: #D99058;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s;
+
+  /* Taille fixe identique pour les deux */
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  /* Garantit que le padding n'augmente pas la taille */
+}
+
+.btn-ocre:hover {
+  background-color: #B37042;
+  /* Ocre plus foncé au survol */
+}
 
 /* ----------------------------------------------- */
 /* Styles pour le menu déroulant de navigation */
@@ -172,7 +183,8 @@ main {
 
 .search-header {
   display: flex;
-  justify-content: space-between; /* Pousse les éléments aux deux extrémités */
+  justify-content: space-between;
+  /* Pousse les éléments aux deux extrémités */
   align-items: center;
   margin-bottom: 10px;
   width: 100%;
@@ -425,7 +437,8 @@ tbody tr td:nth-child(4) {
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   font-size: 0.95rem;
   line-height: 1.2;
-  min-height: 40px; /* AJOUTÉ POUR CONSISTANCE */
+  min-height: 40px;
+  /* AJOUTÉ POUR CONSISTANCE */
 }
 
 .form-button:active {
@@ -558,12 +571,14 @@ textarea {
     align-items: flex-start;
     padding: 15px 20px;
   }
+
   .search-header {
     flex-direction: column;
-    align-items: flex-start; /* Aligne tout à gauche sur mobile */
+    align-items: flex-start;
+    /* Aligne tout à gauche sur mobile */
     gap: 8px;
   }
- 
+
   .title {
     margin-bottom: 15px;
   }
