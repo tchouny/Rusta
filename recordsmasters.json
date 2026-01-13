@@ -99,7 +99,7 @@
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "7\"48", "annee": 2004},
       {"epreuve": "60m", "nom": "FENAUX Ludovic", "resultat": "7\"48", "annee": 2024},
       {"epreuve": "200m", "nom": "FENAUX Ludovic", "resultat": "24\"30", "annee": 2025},
-      {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "300m", "nom": "FENAUX Ludovic", "resultat": "41\"15", "annee": 2025},
       {"epreuve": "400m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "800m", "nom": "NOULLET Pascal", "resultat": "2'05\"59", "annee": 2001},
       {"epreuve": "1000m", "nom": "NOULLET Pascal", "resultat": "2'46\"23", "annee": 2002},
@@ -829,4 +829,5 @@
       {"epreuve": "Heptathlon", "nom": null, "resultat": null, "annee": null}
     ]
   }
+
 }
