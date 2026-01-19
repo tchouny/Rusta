@@ -321,10 +321,12 @@ h2 {
 
 table {
   /* Table des records (garçons/filles) */
-  width: 100%;
+  width: auto;
   border-collapse: collapse;
-  margin-top: 12px;
+  margin-top: 12px auto;
   font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th,
