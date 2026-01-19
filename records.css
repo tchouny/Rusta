@@ -520,12 +520,42 @@ textarea {
     padding: 10px 12px;
   }
 
-  /* TABLEAU MOBILE : Défilement horizontal obligatoire */
   table {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: auto; /* Active le défilement horizontal */
     -webkit-overflow-scrolling: touch;
+    padding-bottom: 15px; /* Espace pour la barre de défilement */
+  }
+
+  /* --- PERSONNALISATION DE LA BARRE DE DÉFILEMENT --- */
+  /* Force l'affichage de la barre sur smartphone */
+  table::-webkit-scrollbar {
+    height: 8px; /* Épaisseur */
+    display: block;
+  }
+
+  table::-webkit-scrollbar-thumb {
+    background-color: var(--primary-light); /* Couleur bleue de votre charte */
+    border-radius: 10px;
+  }
+
+  table::-webkit-scrollbar-track {
+    background: var(--gray); /* Fond gris clair */
+    border-radius: 10px;
+  }
+
+  th, td {
+    /* Maintient le mode "une seule ligne" sur mobile */
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+
+  /* Supprime l'ancien masque de fondu s'il existe pour voir la barre nettement */
+  main table {
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
   }
 
   /* Désactive les masques de fondu pour une lecture nette sur mobile */
