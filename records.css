@@ -316,14 +316,14 @@ h2 {
 }
 
 /* ----------------------------------------------- */
-/* Styles des TABLEAUX */
+/* Styles des TABLEAUX - OPTIMISÉS CONTENU */
 /* ----------------------------------------------- */
 
 table {
-  /* Table des records (garçons/filles) */
+  /* Le tableau ne s'étire plus, il s'adapte à son contenu */
   width: auto;
   border-collapse: collapse;
-  margin-top: 12px auto;
+  margin-top: 12px;
   font-size: 0.9rem;
   margin-left: auto;
   margin-right: auto;
@@ -332,33 +332,18 @@ table {
 th,
 td {
   border: 1px solid var(--gray);
-  padding: 10px 8px;
+  padding: 10px 15px; /* Padding latéral augmenté pour aérer */
   text-align: left;
-  word-wrap: break-word;
-  white-space: normal;
+  /* INDISPENSABLE : Garde les relais sur une seule ligne */
+  white-space: nowrap; 
   font-size: 0.95rem;
 }
 
-/*
-  NOTE: Nous définissons une bordure grise par défaut ci-dessus (var(--gray)).
-  Les règles spécifiques ci-dessous vont écraser le 'border-color' pour donner l'effet bicolore.
-*/
-
-/* 1. Bordures Bleues pour les Garçons (Colonnes 1 à 4) */
-th:nth-child(-n+4),
-td:nth-child(-n+4) {
-  border-color: var(--boys-border-color);
-}
-
-/* 2. Bordures Vertes pour les Filles (Colonnes 5 à 8) */
-th:nth-child(n+5),
-td:nth-child(n+5) {
-  border-color: var(--girls-border-color);
-}
-
+/* Bordures colorées spécifiques */
+th:nth-child(-n+4), td:nth-child(-n+4) { border-color: var(--boys-border-color); }
+th:nth-child(n+5), td:nth-child(n+5) { border-color: var(--girls-border-color); }
 
 th {
-  /* Utilisation du primary foncé pour un contraste maximal sur l'en-tête (Garçons par défaut) */
   background-color: var(--primary);
   color: var(--white);
   font-weight: 800;
@@ -367,67 +352,32 @@ th {
 }
 
 /* COULEURS DU HEADER FILLES */
-
-/* Header Filles (Ligne 1 - Cellule colspan="4") */
-table thead tr:first-child th:nth-child(2) {
-  background-color: var(--girls-header-color);
-}
-
-/* Header Filles (Ligne 2 - Colonnes 5 à 8) */
+table thead tr:first-child th:nth-child(2),
 table thead tr:nth-child(2) th:nth-child(n+5) {
   background-color: var(--girls-header-color);
 }
 
-/* COULEURS DU CORPS DU TABLEAU (tbody) pour les rayures Garçons/Filles */
+/* ZÉBRURES DU CORPS DU TABLEAU */
+tbody tr:nth-child(odd) td:nth-child(-n+4) { background-color: var(--boys-bg-color-odd); }
+tbody tr:nth-child(even) td:nth-child(-n+4) { background-color: var(--boys-bg-color-even); }
+tbody tr:nth-child(even) td:nth-child(n+5) { background-color: var(--girls-bg-color-even); }
+tbody tr:nth-child(odd) td:nth-child(n+5) { background-color: var(--girls-bg-color-odd); }
 
-/* Rayures Lignes IMPAIRES Garçons (Colonnes 1 à 4) */
-tbody tr:nth-child(odd) td:nth-child(-n+4) {
-  background-color: var(--boys-bg-color-odd);
-}
-
-/* Rayures Lignes PAIRS Garçons (Colonnes 1 à 4) - Ajout explicite pour le bicolore */
-tbody tr:nth-child(even) td:nth-child(-n+4) {
-  background-color: var(--boys-bg-color-even);
-}
-
-/* Rayures Lignes PAIRS Filles (Colonnes 5 à 8) */
-tbody tr:nth-child(even) td:nth-child(n+5) {
-  background-color: var(--girls-bg-color-even);
-}
-
-/* Rayures Lignes IMPAIRES Filles (Colonnes 5 à 8) */
-tbody tr:nth-child(odd) td:nth-child(n+5) {
-  background-color: var(--girls-bg-color-odd);
-}
-
-/* RÈGLES DE SÉPARATION GRISÉE ET ÉPAISSE (Garçons/Filles) - Priorité sur la bordure bleue/verte */
-
-/* Séparation dans la première ligne d'en-tête (entre Garçons et Filles) */
-table thead tr:first-child th:first-child {
-  border-right: 4px solid var(--separator-color);
-}
-
-/* Séparation dans la deuxième ligne d'en-tête (colonne Année Garçons) */
-table thead tr:nth-child(2) th:nth-child(4) {
-  border-right: 4px solid var(--separator-color);
-}
-
-/* Séparation dans le corps du tableau (colonne Année Garçons) */
+/* SÉPARATION CENTRALE ÉPAISSE */
+table thead tr:first-child th:first-child,
+table thead tr:nth-child(2) th:nth-child(4),
 tbody tr td:nth-child(4) {
   border-right: 4px solid var(--separator-color);
 }
 
-
-/* Style pour le surlignage des termes de recherche (BLEU CLAIR) */
+/* Styles pour le surlignage des termes de recherche */
 .highlight {
   background-color: #cce5ff;
-  /* Couleur bleu très pâle demandée */
   padding: 2px 0;
   border-radius: 3px;
 }
 
 .form-button {
-  /* Style du bouton "Signaler un record" (classe générale) */
   margin-top: 12px;
   background: var(--primary);
   color: var(--white);
@@ -440,12 +390,9 @@ tbody tr td:nth-child(4) {
   font-size: 0.95rem;
   line-height: 1.2;
   min-height: 40px;
-  /* AJOUTÉ POUR CONSISTANCE */
 }
 
-.form-button:active {
-  transform: translateY(1px);
-}
+.form-button:active { transform: translateY(1px); }
 
 /* ----------------------------------------------- */
 /* Styles du FOOTER */
@@ -466,9 +413,7 @@ footer a {
   transition: color 0.2s;
 }
 
-footer a:hover {
-  color: var(--white);
-}
+footer a:hover { color: var(--white); }
 
 .back-to-top {
   display: block;
@@ -518,13 +463,9 @@ label {
   margin-bottom: 15px;
 }
 
-.form-row .col {
-  flex: 1;
-}
+.form-row .col { flex: 1; }
 
-.input,
-textarea,
-select {
+.input, textarea, select {
   width: 100%;
   padding: 10px;
   border: 1px solid var(--gray);
@@ -544,31 +485,16 @@ textarea {
   margin-top: 15px;
 }
 
-/* Styles pour le message de succès */
-.success-message {
-  text-align: center;
-}
-
-.success-message h4 {
-  color: #16a34a;
-  /* Vert succès */
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
-.success-message p {
-  color: var(--text);
-  line-height: 1.5;
-}
+.success-message { text-align: center; }
+.success-message h4 { color: #16a34a; font-size: 1.5rem; margin-top: 0; }
+.success-message p { color: var(--text); line-height: 1.5; }
 
 /* ================================================= */
 /* RÈGLES SPÉCIFIQUES POUR LES SMARTPHONES (< 768px) */
 /* ================================================= */
 
 @media (max-width: 768px) {
-
   header {
-    /* L'en-tête devient une colonne sur mobile */
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 20px;
@@ -577,16 +503,12 @@ textarea {
   .search-header {
     flex-direction: column;
     align-items: flex-start;
-    /* Aligne tout à gauche sur mobile */
     gap: 8px;
   }
 
-  .title {
-    margin-bottom: 15px;
-  }
+  .title { margin-bottom: 15px; }
 
   nav {
-    /* La navigation prend toute la largeur */
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
@@ -595,102 +517,51 @@ textarea {
 
   #category-select {
     width: 100%;
-    /* Le menu déroulant prend toute la largeur */
     padding: 10px 12px;
   }
 
-  /* TABLEAU MOBILE : Défilement horizontal pour ne pas couper les colonnes */
+  /* TABLEAU MOBILE : Défilement horizontal obligatoire */
   table {
     display: block;
+    width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
-  /* Ajout du fondu sur le côté droit pour indiquer le défilement */
-  /* On utilise le max-width pour éviter d'appliquer cette règle sur les grands écrans */
+  /* Désactive les masques de fondu pour une lecture nette sur mobile */
   @media (max-width: 1400px) {
     main table {
-      -webkit-mask-image: linear-gradient(to right, black 95%, transparent);
-      mask-image: linear-gradient(to right, black 95%, transparent);
+      -webkit-mask-image: none !important;
+      mask-image: none !important;
     }
   }
 
-  /* Pour les cellules, nous permettons l'enveloppement du texte à nouveau */
-  th,
-  td {
-    white-space: normal;
-    min-width: 80px;
-    /* Assure une largeur minimale pour les colonnes */
-    padding: 8px;
-    font-size: 0.8rem;
+  th, td {
+    /* Maintient les relais sur une seule ligne même sur mobile */
+    white-space: nowrap; 
+    padding: 8px 10px;
+    font-size: 0.85rem;
   }
 
-  section {
-    padding: 15px;
-  }
+  section { padding: 15px; }
+  h2 { font-size: 1.2rem; }
+  .form-row { flex-direction: column; }
+  #btn-report-global { width: 100%; font-size: 1rem; padding: 12px 10px; }
 
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  /* Formulaire modal sur mobile devient une colonne */
-  .form-row {
-    flex-direction: column;
-  }
-
-  /* Ajustement pour le bouton global sur mobile */
-  #btn-report-global {
-    width: 100%;
-    font-size: 1rem;
-    padding: 12px 10px;
-  }
-
-  /* ⬇️ CORRECTION POUR LE FORMULAIRE MODAL (RÉVISION) ⬇️ */
-
-  /* 1. Aligne en haut et permet le défilement */
   .modal-backdrop {
     align-items: flex-start;
-    /* Aligne le modal en haut de l'écran */
     padding-top: 10px;
-    /* Réduit la marge en haut pour maximiser l'espace */
   }
 
   .modal {
     max-height: 98vh;
-    /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
     padding: 15px;
-    /* Réduit le padding interne du modal de 25px à 15px */
     overflow-y: auto;
-    /* Assure que le contenu est défilable */
   }
 
-  /* 2. Diminue la taille des éléments internes du formulaire */
-  .modal h3 {
-    font-size: 1.3rem;
-  }
-
-  .form-row {
-    margin-bottom: 10px;
-    /* Réduit la marge verticale entre les lignes de 15px à 10px */
-    gap: 8px;
-    /* Réduit l'espace entre les colonnes */
-  }
-
-  label {
-    font-size: 0.85rem;
-    /* Réduit la police des labels pour gagner de la hauteur */
-  }
-
-  .input,
-  textarea,
-  select {
-    padding: 8px;
-    /* Réduit le padding des champs de saisie de 10px à 8px */
-    font-size: 0.9rem;
-    /* Réduit la police des champs */
-  }
-
-  .modal-actions {
-    margin-top: 10px;
-    /* Réduit la marge au-dessus des boutons */
-  }
+  .modal h3 { font-size: 1.3rem; }
+  .form-row { margin-bottom: 10px; gap: 8px; }
+  label { font-size: 0.85rem; }
+  .input, textarea, select { padding: 8px; font-size: 0.9rem; }
+  .modal-actions { margin-top: 10px; }
 }
