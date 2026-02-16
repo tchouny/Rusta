@@ -117,9 +117,9 @@
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
-      {"epreuve": "60m", "nom": "FRANCQ Anne-Marie", "resultat": "9\"49", "annee": 2020},
-      {"epreuve": "200m", "nom": "FRANCQ Anne-Marie", "resultat": "33\"25", "annee": 2020},
-      {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "60m", "nom": "SALOME Aurélie", "resultat": "9\"38", "annee": 2025},
+      {"epreuve": "200m", "nom": "SALOME Aurélie", "resultat": "31\"63", "annee": 2026},
+      {"epreuve": "300m", "nom": "SALOME Aurélie", "resultat": "53\"01", "annee": 2025},
       {"epreuve": "400m", "nom": "FRANCQ Anne-Marie", "resultat": "1'15\"72", "annee": 2016},
       {"epreuve": "800m", "nom": "FRANCQ Anne-Marie", "resultat": "3'18\"11", "annee": 2020},
       {"epreuve": "1000m", "nom": null, "resultat": null, "annee": null},
@@ -831,3 +831,4 @@
   }
 
 }
+
