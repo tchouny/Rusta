@@ -17,7 +17,8 @@
       {"epreuve":"60m","nom":"ATSAKENA NKONO Margot","resultat":"9\"52","annee":2016},
       {"epreuve":"1000m","nom":"NOULLET Audrey","resultat":"3'54\"68","annee":2000},
       {"epreuve":"4x200m","nom":"LEKOEUCHE L - FONTAINE L - BOCQUET A - CASIER R","resultat":"2'39\"16","annee":2020},
-      {"epreuve":"Hauteur","nom":"HAINAUT M., SOURDIAU A","resultat":"1m08","annee":null},
+      {"epreuve":"Hauteur","nom":"HAINAUT M.","resultat":"1m08","annee":null},
+      {"epreuve":"Hauteur","nom":"SOURDIAU A","resultat":"1m08","annee":null},
       {"epreuve":"Longueur","nom":"VAN HERPE Ophélie","resultat":"3m67","annee":2007},
       {"epreuve":"Poids","nom":"DELAUW Elise","resultat":"8m38","annee":2006},
       {"epreuve":"Triathlon","nom":"SOURDIAU Aline","resultat":"951pts","annee":null},
@@ -768,6 +769,7 @@
   }
 
 }
+
 
 
 
