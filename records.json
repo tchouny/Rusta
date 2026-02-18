@@ -128,7 +128,7 @@
     { "epreuve": "Hauteur", "nom": "TRIFIN Remi", "resultat": "1m51", "annee": "2022" },
     { "epreuve": "Longueur", "nom": "RUFFACQ Quentin", "resultat": "5m10", "annee": "2002" },
     { "epreuve": "Perche", "nom": "BOUCART Gaspard", "resultat": "2m64", "annee": "2025" },
-    { "epreuve": "Poids", "nom": "GETS Damien", "resultat": "11m28", "annee":null },
+    { "epreuve": "Poids", "nom": "GETS Damien", "resultat": "11m28", "annee":1998 },
     { "epreuve": "Triathlon", "nom": "LABARRERE Julien", "resultat": "1629pts", "annee":null },
     { "epreuve": "Tétrathlon", "nom": "DEPRET David", "resultat": "2474pts", "annee": "1997" },
     { "epreuve": "Pentathlon", "nom": "RUFFACQ Quentin", "resultat": "3097pts", "annee": "2002" }
@@ -300,7 +300,7 @@
   { "epreuve": "Disque", "nom": "VANDEWINKEL Martine", "resultat": "29m58", "annee":null },
   { "epreuve": "Javelot", "nom": "DELBROECK Lily", "resultat": "32m54", "annee": "2020" },
   { "epreuve": "Marteau", "nom": "LECOUVET Noémie", "resultat": "37m30", "annee": "2011" },
-  { "epreuve": "Pentathlon", "nom": "DELCUEILLERIE Stéphanie", "resultat": "2700pts", "annee":null },
+  { "epreuve": "Pentathlon", "nom": "DELCUEILLERIE Stéphanie", "resultat": "2700pts", "annee":1989 },
   { "epreuve": "Heptathlon", "nom": "CARBONNELLE Stéphanie", "resultat": "3561pts", "annee": "2014" }
 ]
     },
@@ -405,7 +405,8 @@
       { "epreuve": "4x800m", "nom": "VANWIJNSBERGHE, SAMAIN, LABARRERE, HENNAUT", "resultat": "9'41\"56", "annee": 1998 },
       { "epreuve": "Relais olympique", "nom": "FIEVEZ C, PIERROUX M, QUINTIN M, NOULLET AL", "resultat": "4'23\"78", "annee": 2005 },
       { "epreuve": "Relais suédois", "nom": "CARBONNELLE P, DERASSE, DETAILLE L, GALLET P", "resultat": "2'31\"06", "annee": 2012 },
-      { "epreuve": "Hauteur", "nom": "DELCUEILLERIE Stéphanie, DELEM Isabelle", "resultat": "1m65", "annee": null },
+      { "epreuve": "Hauteur", "nom": "DELCUEILLERIE Stéphanie", "resultat": "1m65", "annee": 1991 },
+      { "epreuve": "Hauteur", "nom": "DELEM Isabelle", "resultat": "1m65", "annee": null },
       { "epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "6m23", "annee": 1989 },
       { "epreuve": "Triple saut", "nom": "CARLIER Lucie", "resultat": "11m05", "annee": 2023 },
       { "epreuve": "Perche", "nom": "HAULET Victoria", "resultat": "2m67", "annee": 2023 },
@@ -594,7 +595,7 @@
       {"epreuve":"110H","nom":"DEHAENE Patrick","resultat":"15\"2","annee":null},
       {"epreuve":"110H","nom":"CAMPENER Corentin","resultat":"15\"49","annee":2010},
       {"epreuve":"200H","nom":"FONTAINE Marc","resultat":"24\"5 TM","annee":null},
-      {"epreuve":"400H","nom":"TORDOIR Xavier","resultat":"53\"5","annee":null},
+      {"epreuve":"400H","nom":"TORDOIR Xavier","resultat":"53\"5","annee":1993},
       {"epreuve":"3000m St.","nom":"POTVIN Vincent","resultat":"9'03\"87","annee":null},
       {"epreuve":"4x100m","nom":"CALLENS E, FENAUX L, DELZENNE D, LEFEBVRE S.","resultat":"42\"16","annee":2006},
       {"epreuve":"4x200m","nom":"MONTIGNIE E, COCHEZ J-A, BILLOUEZ V, STAELENS O","resultat":"1'29\"82","annee":null},
@@ -714,7 +715,7 @@
       {"epreuve":"Marathon","nom":"DEBAISIEUX Jean-Luc","resultat":"2h20'28\"","annee":null},
       {"epreuve":"110H (1.07m)","nom":"GETS Florent","resultat":"15\"17","annee":2010},
       {"epreuve":"200H","nom":"FONTAINE Marc","resultat":"24\"5 TM","annee":null},
-      {"epreuve":"400H (0.91m)","nom":"TORDOIR Xavier","resultat":"53\"5","annee":null},
+      {"epreuve":"400H (0.91m)","nom":"TORDOIR Xavier","resultat":"53\"5","annee":1993},
       {"epreuve":"3000m St.","nom":"POTVIN Vincent","resultat":"9'03\"87","annee":null},
       {"epreuve":"3km marche","nom":"VERMANDER Samuel","resultat":"23'12\"19","annee":2016},
       {"epreuve":"4x100m","nom":"CALLENS E, FENAUX L, DELZENNE D, LEFEBVRE S","resultat":"42\"16","annee":2006},
@@ -767,5 +768,6 @@
   }
 
 }
+
 
 
