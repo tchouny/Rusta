@@ -2,13 +2,14 @@
 
   "benjamins_indoor": {
     "garcons": [
-      {"epreuve":"60m","nom":"FONTAINE Olivier, EVRARD Gilles","resultat":"9\"41","annee":null},
+      {"epreuve":"60m","nom":"FONTAINE Olivier","resultat":"9\"41","annee":1998},
+      {"epreuve":"60m","nom":"EVRARD Gilles","resultat":"9\"41","annee":2000},
       {"epreuve":"1000m","nom":"CADRON Julien","resultat":"3'34\"00","annee":2000},
       {"epreuve":"4x200m","nom":"DEFFERNEZ G - DERICQ E - THONNARD L - TOEBAERT A","resultat":"2'31\"70","annee":2020},
       {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m35","annee":1998},
-      {"epreuve":"Longueur","nom":"EVRARD Gilles","resultat":"4m08","annee":null},
-      {"epreuve":"Poids","nom":"EVRARD Gilles","resultat":"9m51","annee":null},
-      {"epreuve":"Triathlon","nom":"EVRARD Gilles","resultat":"1317pts","annee":null},
+      {"epreuve":"Longueur","nom":"EVRARD Gilles","resultat":"4m08","annee":2000},
+      {"epreuve":"Poids","nom":"EVRARD Gilles","resultat":"9m51","annee":2000},
+      {"epreuve":"Triathlon","nom":"EVRARD Gilles","resultat":"1317pts","annee":2000},
       {"epreuve":"Tetrathlon","nom":"RUFFACQ Timmy","resultat":"1127pts","annee":2004}
     ],
     "filles": [
@@ -29,8 +30,8 @@
       {"epreuve":"600m","nom":"COSSEZ Colin","resultat":"1'55\"04","annee":2016},
       {"epreuve":"1000m","nom":"FONTAINE Olivier","resultat":"3'12\"70","annee":1998},
       {"epreuve":"4x60m","nom":"TALON G - VAN DAELE Q - CORDESSE A - RENARD J","resultat":"39\"04","annee":2001},
-      {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m34","annee":null},
-      {"epreuve":"Longueur","nom":"EVRARD Gilles","resultat":"4m15","annee":null},
+      {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m34","annee":1998},
+      {"epreuve":"Longueur","nom":"EVRARD Gilles","resultat":"4m15","annee":2000},
       {"epreuve":"b. hockey","nom":"FONTAINE Olivier","resultat":"42m49","annee":1999},
       {"epreuve":"Poids","nom":"MALVAUX Hugo","resultat":"10m76","annee":2012},
       {"epreuve":"Triathlon","nom":"FONTAINE Olivier","resultat":"1630pts","annee":1998},
@@ -55,7 +56,7 @@
     {"epreuve":"40m","nom":"CLAES Riwan","resultat":"7\"57","annee":2014},
     {"epreuve":"60m","nom":"DE LiL Aurele","resultat":"8\"81","annee":2019},
     {"epreuve":"1000m","nom":"BARA Paul","resultat":"3'23''06","annee":2006},
-    {"epreuve":"60H","nom":"RUFFACQ Quentin","resultat":"11\"56","annee":null},
+    {"epreuve":"60H","nom":"RUFFACQ Quentin","resultat":"11\"56","annee":2000},
     {"epreuve":"4x200m","nom":"CORNU L - GLORIEUX Y - TRIFIN R - WAUCQUEZ J","resultat":"2'15\"01","annee":2020},
     {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m40","annee":1998},
     {"epreuve":"Longueur","nom":"EVRARD Gilles","resultat":"4m29","annee":2001},
@@ -80,14 +81,14 @@
   "garcons": [
     {"epreuve":"60m","nom":"VASSEUR David","resultat":"8\"2","annee":null},
     {"epreuve":"60m","nom":"DEMARET Laurent","resultat":"8\"58","annee":2015},
-    {"epreuve":"200m","nom":"DE PAEPE Pierre","resultat":"30\"8","annee":null},
+    {"epreuve":"200m","nom":"DE PAEPE Pierre","resultat":"30\"8","annee":1990},
     {"epreuve":"800m","nom":"VASSEUR David","resultat":"2'25\"58","annee":null},
     {"epreuve":"1000m","nom":"FONTAINE Olivier","resultat":"3'06\"53","annee":2000},
     {"epreuve":"1km marche","nom":"EVRARD Gilles","resultat":"6'17","annee":2002},
-    {"epreuve":"60H (76cm)","nom":"RUFFACQ Quentin","resultat":"10\"74","annee":null},
+    {"epreuve":"60H (76cm)","nom":"RUFFACQ Quentin","resultat":"10\"74","annee":2000},
     {"epreuve":"60H (68cm)","nom":"VAN DAELEN Ruben","resultat":"11\"86","annee":2022},
     {"epreuve":"4x60m","nom":"VASSEUR D - DENYS S - DELAUNOY S - KALISZ F","resultat":"34\"5","annee":null},
-    {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m57","annee":null},
+    {"epreuve":"Hauteur","nom":"FONTAINE Olivier","resultat":"1m57","annee":2000},
     {"epreuve":"Longueur","nom":"VASSEUR David","resultat":"4m65","annee":null},
     {"epreuve":"b. hockey","nom":"FONTAINE Olivier","resultat":"46m21","annee":2000},
     {"epreuve":"Poids","nom":"GETS Florent","resultat":"11m40","annee":2002},
@@ -154,9 +155,9 @@
     { "epreuve": "80m", "nom": "DE CRUYNAERE Grégoire", "resultat": "10\"22", "annee": "2006" },
     { "epreuve": "150m", "nom": "CHUFFART Antoine", "resultat": "18\"7", "annee": "1993" },
     { "epreuve": "200m", "nom": "DEBARGE Olivier, CAILTEUX Eric", "resultat": "26\"5", "annee":null },
-    { "epreuve": "300m", "nom": "DEPRET David", "resultat": "41\"88", "annee":null },
+    { "epreuve": "300m", "nom": "DEPRET David", "resultat": "41\"88", "annee":1997 },
     { "epreuve": "800m", "nom": "DUBOIS Pascal", "resultat": "2'20\"7", "annee":null },
-    { "epreuve": "1000m", "nom": "DEPRET David", "resultat": "2'59\"49", "annee":null },
+    { "epreuve": "1000m", "nom": "DEPRET David", "resultat": "2'59\"49", "annee":1997 },
     { "epreuve": "80H (84cm)", "nom": "GETS Florent", "resultat": "12\"79", "annee": "2004" },
     { "epreuve": "80H (76cm)", "nom": "WIBAUT Mathias", "resultat": "12\"13", "annee": "2022" },
     { "epreuve": "150H (68cm 3H)", "nom": "VAN DAELEN Ruben", "resultat": "23\"34", "annee": "2023" },
@@ -168,7 +169,7 @@
     { "epreuve": "Poids 3kg", "nom": "CHUFFART Antoine", "resultat": "12m48", "annee": "1993" },
     { "epreuve": "Disque 1kg", "nom": "GETS Florent", "resultat": "36m20", "annee": "2004" },
     { "epreuve": "Disque 0.75kg", "nom": "DEMARET Laurent", "resultat": "43m24", "annee": "2017" },
-    { "epreuve": "Javelot 400gr", "nom": "DE PAEPE Pierre", "resultat": "40m14", "annee":null},
+    { "epreuve": "Javelot 400gr", "nom": "DE PAEPE Pierre", "resultat": "40m14", "annee":1992},
     { "epreuve": "Triathlon", "nom": "CAILTEUX Eric", "resultat": "1057pts", "annee":null },
     { "epreuve": "Tetrathlon", "nom": "CHUFFART Antoine", "resultat": "2294pts", "annee":null },
     { "epreuve": "Pentathlon", "nom": "DEPRET David", "resultat": "3402pts", "annee":1997 }
@@ -211,7 +212,7 @@
     { "epreuve": "Hauteur", "nom": "CERVENY Grégory", "resultat": "1m85" },
     { "epreuve": "Longueur", "nom": "DE CRUYNAERE Grégoire", "resultat": "5m92", "annee": "2007" },
     { "epreuve": "Triple saut", "nom": "DUBOIS Tristan", "resultat": "11m93", "annee": "2016" },
-    { "epreuve": "Perche", "nom": "CAILTEUX Eric", "resultat": "3m20", "annee":null  },
+    { "epreuve": "Perche", "nom": "CAILTEUX Eric", "resultat": "3m20", "annee":1990  },
     { "epreuve": "Poids", "nom": "GETS Florent", "resultat": "14m19", "annee": "2006" },
     { "epreuve": "Triathlon", "nom": "FICHERE Hugo", "resultat": "1031pts", "annee": "2013" },
     { "epreuve": "Hexathlon", "nom": "DEMARET Laurent", "resultat": "3340pts", "annee": "2019" }
@@ -766,4 +767,5 @@
   }
 
 }
+
 
