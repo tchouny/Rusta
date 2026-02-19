@@ -9,7 +9,7 @@
       {"epreuve": "800m", "nom": "FLAMME Kevin", "resultat": "2'09\"07", "annee": 2025},
       {"epreuve": "1000m", "nom": "FLAMME Kevin", "resultat": "2'51\"55", "annee": 2024},
       {"epreuve": "1500m", "nom": "FLAMME Kevin", "resultat": "4'27\"78", "annee": 2026},
-      {"epreuve": "3000m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "3000m", "nom": "FLAMME Kevin", "resultat": "9'33\"46", "annee": 2025},
       {"epreuve": "60H (0.99m)", "nom": "LAUS Joachim", "resultat": "9\"67", "annee": 2023},
       {"epreuve": "Hauteur", "nom": "LAUS Joachim", "resultat": "1m64", "annee": 2020},
       {"epreuve": "Longueur", "nom": "LAUS Joachim", "resultat": "5m57", "annee": 2020},
@@ -832,6 +832,7 @@
   }
 
 }
+
 
 
 
