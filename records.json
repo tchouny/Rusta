@@ -547,7 +547,7 @@
       {"epreuve":"4x200m","nom":"GUENE N, RENARD L, RENARD A, DUJARDIN Q","resultat":"1'30\"94","annee":2025},
       {"epreuve":"4x400m","nom":"DUJARDIN Q, RENARD A, TRIFFIN R, RENARD L","resultat":"3'30\"36","annee":2025},
       {"epreuve":"Hauteur","nom":"CAMPENER Corentin","resultat":"2m01","annee":2010},
-      {"epreuve":"Longueur","nom":"GUENE Noradine","resultat":"7m29","annee":2025},
+      {"epreuve":"Longueur","nom":"GUENE Noradine","resultat":"7m48","annee":2026},
       {"epreuve":"Triple saut","nom":"D'HEYGERE Jerome","resultat":"13m18","annee":2012},
       {"epreuve":"Perche","nom":"DEWASME Guy","resultat":"4m70","annee":1988},
       {"epreuve":"Poids","nom":"GETS Florent","resultat":"13m18","annee":2012},
@@ -665,7 +665,7 @@
       {"epreuve":"4x400m","nom":"DUJARDIN Q, RENARD A, TRIFFIN R, RENARD L","resultat":"3'30\"36","annee":2025},
       {"epreuve":"4x400m mixte","nom":"DUJARDIN Q, FRANCOIS V, RENARD A, BOURGUIGNON L","resultat":"3'54\"85","annee":2025},
       {"epreuve":"Hauteur","nom":"CAMPENER Sébastien","resultat":"2m06","annee":1999},
-      {"epreuve":"Longueur","nom":"GUENE Noradine","resultat":"7m29","annee":2025},
+      {"epreuve":"Longueur","nom":"GUENE Noradine","resultat":"7m48","annee":2026},
       {"epreuve":"Triple saut","nom":"D'HEYGERE Jerome","resultat":"13m18","annee":2012},
       {"epreuve":"Perche","nom":"DEWASME Guy","resultat":"4m70","annee":1988},
       {"epreuve":"Poids","nom":"DE GEYTER Olivier","resultat":"13m66","annee":2016},
@@ -769,6 +769,7 @@
   }
 
 }
+
 
 
 
