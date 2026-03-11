@@ -684,7 +684,7 @@
       {"epreuve":"3000m","nom":"SIERACKI Margaux","resultat":"9'18\"23","annee":2022},
       {"epreuve":"Mile","nom":"NOULLET Annelise","resultat":"5'47\"94","annee":2008},
       {"epreuve":"60H (0.84m)","nom":"VANHAMME Caroline","resultat":"8\"90","annee":2024},
-      {"epreuve":"4x200m","nom":"PIEROUX, BURTON, LIEBENS, LAUS","resultat":"1'47\"95","annee":2008},
+      {"epreuve":"4x200m","nom":"LEFEBVRE Leane, VANHOVE Clea, FRANCOIS Victoria, BOURGUIGNON Laurine","resultat":"1'46\"70","annee":2026},
       {"epreuve":"4x400m mixte","nom":"DUJARDIN Q, FRANCOIS V, RENARD A, BOURGUIGNON L","resultat":"3'54\"85","annee":2025},
       {"epreuve":"Hauteur","nom":"LEPOUTERE Margot","resultat":"1m70","annee":2018},
       {"epreuve":"Longueur","nom":"HENNART Sandrine","resultat":"6m27","annee":null},
@@ -769,6 +769,7 @@
   }
 
 }
+
 
 
 
