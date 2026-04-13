@@ -542,7 +542,7 @@
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
-      {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "100m", "nom": "WILLEQUET Gilliane", "resultat": "18\"33", "annee": 2026},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400m", "nom": null, "resultat": null, "annee": null},
@@ -606,7 +606,7 @@
   },
   "M65_outdoor": {
     "garcons": [
-      {"epreuve": "100m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "14\"66", "annee": 2026},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400m", "nom": null, "resultat": null, "annee": null},
