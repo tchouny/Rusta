@@ -297,6 +297,7 @@
   { "epreuve": "Triple saut", "nom": "DISY Audrey", "resultat": "10m80", "annee":1993 },
   { "epreuve": "Perche", "nom": "FRANCOIS Margot", "resultat": "2m20", "annee": "2002" },
   { "epreuve": "Perche", "nom": "DELABY Julie", "resultat": "2m20", "annee":null },
+  { "epreuve": "Perche", "nom": "RENARD Emilie", "resultat": "2m20", "annee": "2026" },
   { "epreuve": "Poids", "nom": "VANDEWINKEL Martine", "resultat": "12m10", "annee":null },
   { "epreuve": "Disque", "nom": "VANDEWINKEL Martine", "resultat": "29m58", "annee":null },
   { "epreuve": "Javelot", "nom": "DELBROECK Lily", "resultat": "32m54", "annee": "2020" },
