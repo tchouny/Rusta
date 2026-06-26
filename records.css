@@ -680,15 +680,19 @@ textarea {
     /* Aligne le modal en haut de l'écran */
     padding-top: 10px;
     /* Réduit la marge en haut pour maximiser l'espace */
+    overflow-y: auto;
+    /* permet le scroll sur IOS */
   }
 
   .modal {
-    max-height: 98vh;
+    max-height: 90dvh;
     /* Donne au modal une hauteur maximale de 98% pour laisser le strict minimum de bordures */
     padding: 15px;
     /* Réduit le padding interne du modal de 25px à 15px */
     overflow-y: auto;
     /* Assure que le contenu est défilable */
+    -webkit-overflow-scrolling: touch;
+    /*scroll fluide sur IOS */
   }
 
   /* 2. Diminue la taille des éléments internes du formulaire */
