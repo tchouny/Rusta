@@ -441,10 +441,10 @@
       {"epreuve": "Poids (6kg)", "nom": "DUTHOO Laurent", "resultat": "13m18", "annee": 2025},
       {"epreuve": "Disque (1,5kg)", "nom": "DUTHOO Laurent", "resultat": "36m69", "annee": 2025},
       {"epreuve": "Javelot (700g)", "nom": "LONGEVAL Fernand", "resultat": "38m88", "annee": 2005},
-      {"epreuve": "Marteau (6kg)", "nom": "BACART Georges", "resultat": "35m22", "annee": 2020},
-      {"epreuve": "Marteau Lourd (11,34kg)", "nom": "BACART Georges", "resultat": "12m50", "annee": 2018},
+      {"epreuve": "Marteau (6kg)", "nom": "DUTHOO Laurent", "resultat": "40m55", "annee": 2026},
+      {"epreuve": "Marteau Lourd (11,34kg)", "nom": "DUTHOO Laurent", "resultat": "13m26", "annee": 2026},
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "PentaLancers", "nom": "BACART Georges", "resultat": "2944pts", "annee": 2018},
+      {"epreuve": "PentaLancers", "nom": "DUTHOO Laurent", "resultat": "3369pts", "annee": 2026},
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
