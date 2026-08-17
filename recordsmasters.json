@@ -137,7 +137,9 @@
   },
   "M40_outdoor": {
     "garcons": [
+      {"epreuve": "60m", "nom": "FENAUX Ludovic", "resultat": "7\"72", "annee": 2026},
       {"epreuve": "100m", "nom": "LEFEBVRE Sylvain", "resultat": "11\"60", "annee": 2020},
+      {"epreuve": "150m", "nom": "FENAUX Ludovic", "resultat": "18\"43", "annee": 2026},
       {"epreuve": "200m", "nom": "FONTAINE Pascal", "resultat": "23\"85", "annee": 2004},
       {"epreuve": "300m", "nom": "FONTAINE Pascal", "resultat": "38\"81", "annee": 2001},
       {"epreuve": "400m", "nom": "DEGALLAIX Michel", "resultat": "55\"09", "annee": null},
@@ -542,6 +544,7 @@
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
+      {"epreuve": "60m", "nom": "WILLEQUET Gilliane", "resultat": "11\"16", "annee": 2026},
       {"epreuve": "100m", "nom": "WILLEQUET Gilliane", "resultat": "18\"33", "annee": 2026},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
@@ -606,7 +609,9 @@
   },
   "M65_outdoor": {
     "garcons": [
+      {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "8\"87", "annee": 2026},
       {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "14\"23", "annee": 2026},
+      {"epreuve": "150m", "nom": "FONTAINE Pascal", "resultat": "21\"28", "annee": 2026},
       {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400m", "nom": null, "resultat": null, "annee": null},
