@@ -612,7 +612,7 @@
       {"epreuve": "60m", "nom": "FONTAINE Pascal", "resultat": "8\"87", "annee": 2026},
       {"epreuve": "100m", "nom": "FONTAINE Pascal", "resultat": "14\"23", "annee": 2026},
       {"epreuve": "150m", "nom": "FONTAINE Pascal", "resultat": "21\"28", "annee": 2026},
-      {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "200m", "nom": "FONTAINE Pascal", "resultat": "29\"56", "annee": 2026},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "800m", "nom": "COCU Jean-Luc", "resultat": "3'44\"02", "annee": 2022},
