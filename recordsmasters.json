@@ -337,7 +337,7 @@
       {"epreuve": "1000m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "1500m", "nom": "VANHAEBOST Georges", "resultat": "4'45\"01", "annee": 2014},
       {"epreuve": "Mile", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "2000m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "2000m", "nom": LECOEUCHE Arnaud", "resultat": "6'32\"68", "annee": 2026},
       {"epreuve": "3000m", "nom": "TRIFIN Ivan", "resultat": "10'32\"78", "annee": 2025},
       {"epreuve": "5000m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "10000m", "nom": null, "resultat": null, "annee": null},
