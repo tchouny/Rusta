@@ -80,19 +80,19 @@
       {"epreuve": "5000m", "nom": "BILLE Sabrina", "resultat": "26'43\"58", "annee": 2015},
       {"epreuve": "10000m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "20km", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "100H (0.84m)", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "100H (0.84m)", "nom": "QUINTIN Marie", "resultat": "21\"61", "annee": 2026},
       {"epreuve": "400H (0.76m)", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Hauteur", "nom": "FRANCQ Anne-Marie", "resultat": "1m25", "annee": 2015},
       {"epreuve": "Longueur", "nom": "HENNART Sandrine", "resultat": "5m37", "annee": 2010},
       {"epreuve": "Triple saut", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "Perche", "nom": null, "resultat": null, "annee": null},
-      {"epreuve": "Poids (4kg)", "nom": "MASSIN Marie", "resultat": "9m17", "annee": 2019},
+      {"epreuve": "Poids (4kg)", "nom": "QUINTIN Marie", "resultat": "9m40", "annee": 2026},
       {"epreuve": "Disque (1kg)", "nom": "DELCAMPE Sandrine", "resultat": "28m44", "annee": 2014},
       {"epreuve": "Javelot (600g)", "nom": "LEFEBVRE Marie-Jeanne", "resultat": "25m45", "annee": 2023},
       {"epreuve": "Marteau (4kg)", "nom": "DELCAMPE Sandrine", "resultat": "35m75", "annee": 2014},
       {"epreuve": "Marteau Lourd (9.08kg)", "nom": "DELCAMPE Sandrine", "resultat": "10m35", "annee": 2014},
       {"epreuve": "Pentathlon", "nom": "FRANCQ Anne-Marie", "resultat": "874pts", "annee": 2015},
-      {"epreuve": "PentaLancers", "nom": "DELCAMPE Sandrine", "resultat": "1128pts", "annee": 2014}
+      {"epreuve": "PentaLancers", "nom": "QUINTIN Marie", "resultat": "1558pts", "annee": 2026}
     ]
   },
   "M40_indoor": {
