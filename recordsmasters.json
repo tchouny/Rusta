@@ -357,7 +357,9 @@
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
+      {"epreuve": "60m", "nom": "FRANCQ Anne-Marie", "resultat": "9\"47", "annee": 2026},
       {"epreuve": "100m", "nom": "HENNART Sandrine", "resultat": "13\"00", "annee": 2024},
+      {"epreuve": "150m", "nom": "FRANCQ Anne-Marie", "resultat": "23\"19", "annee": 2026},
       {"epreuve": "200m", "nom": "DHANIS Christine", "resultat": "32\"28", "annee": 2017},
       {"epreuve": "300m", "nom": "DEBOURLE Rita", "resultat": "56\"64", "annee": 2024},
       {"epreuve": "400m", "nom": "DEBOURLE Rita", "resultat": "1'23\"26", "annee": 2024},
