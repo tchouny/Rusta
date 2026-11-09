@@ -118,7 +118,7 @@
       {"epreuve": "Pentathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
-      {"epreuve": "60m", "nom": "SALOME Aurélie", "resultat": "9\"38", "annee": 2025},
+      {"epreuve": "60m", "nom": "SALOME Aurélie", "resultat": "9\"30", "annee": 2026},
       {"epreuve": "200m", "nom": "SALOME Aurélie", "resultat": "31\"63", "annee": 2026},
       {"epreuve": "300m", "nom": "SALOME Aurélie", "resultat": "53\"01", "annee": 2025},
       {"epreuve": "400m", "nom": "FRANCQ Anne-Marie", "resultat": "1'15\"72", "annee": 2016},
@@ -170,8 +170,10 @@
       {"epreuve": "Décathlon", "nom": null, "resultat": null, "annee": null}
     ],
     "filles": [
+      {"epreuve": "60m", "nom": "SALOME Aurélie", "resultat": "9\"75", "annee": 2026},
       {"epreuve": "100m", "nom": "HENNART Sandrine", "resultat": "13\"84", "annee": 2015},
-      {"epreuve": "200m", "nom": null, "resultat": null, "annee": null},
+      {"epreuve": "150m", "nom": "SALOME Aurélie", "resultat": "24\"70", "annee": 2026},
+      {"epreuve": "200m", "nom": "SALOME Aurélie", "resultat": "33\"73", "annee": 2026},
       {"epreuve": "300m", "nom": null, "resultat": null, "annee": null},
       {"epreuve": "400m", "nom": "FRANCQ Anne-Marie", "resultat": "1'15\"48", "annee": 2019},
       {"epreuve": "800m", "nom": "OPSOMER Caroline", "resultat": "2'42\"42", "annee": 2023},
